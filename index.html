@@ -90,7 +90,219 @@ bounds
 
 map.fitBounds(bounds);
 
+// =====================================
+// DATABASE CONNECTION TEST
+// =====================================
 
+console.log("Database loaded:", systems);
+
+
+
+// =====================================
+// CUSTOM SYSTEM MARKER
+// =====================================
+
+const poiIcon = L.divIcon({
+
+    className:"",
+
+    html:'<div class="poi"></div>',
+
+    iconSize:[18,18],
+
+    iconAnchor:[9,9]
+
+});
+
+
+
+// =====================================
+// MARKER CSS
+// =====================================
+
+const markerStyle = document.createElement("style");
+
+markerStyle.innerHTML = `
+
+.poi {
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+    background:#00c3ff;
+
+    border:2px solid white;
+
+    box-shadow:
+        0 0 8px #00c3ff,
+        0 0 20px #00c3ff;
+
+}
+
+`;
+
+document.head.appendChild(markerStyle);
+
+
+
+// =====================================
+// CREATE SYSTEM MARKERS
+// =====================================
+
+
+systems.forEach(system => {
+
+
+    let marker = L.marker(
+
+        [system.y, system.x],
+
+        {
+            icon:poiIcon
+        }
+
+    )
+
+    .addTo(map);
+
+
+
+    marker.bindPopup(`
+
+        <h2 style="margin:0 0 8px 0;">
+            ${system.name}
+        </h2>
+
+
+        ${system.aka ? `
+
+        <div style="
+            color:#aaa;
+            font-style:italic;
+            margin-bottom:8px;
+        ">
+
+        aka ${system.aka}
+
+        </div>
+
+        ` : ""}
+
+
+        <p>
+
+        <strong>Affiliation:</strong>
+
+        ${system.affiliation || "Neutral"}
+
+        </p>
+
+
+        ${system.description ? `
+
+        <p>
+        ${system.description}
+        </p>
+
+        ` : ""}
+
+
+        ${system.link ? `
+
+        <a href="${system.link}" target="_blank">
+
+        View Wookieepedia
+
+        </a>
+
+        ` : ""}
+
+
+    `);
+
+
+
+    marker.bindTooltip(
+
+        system.name,
+
+        {
+
+            permanent:true,
+
+            direction:"right",
+
+            offset:[10,0],
+
+            opacity:0
+
+        }
+
+    );
+
+
+
+    system.marker = marker;
+
+
+});
+
+
+
+// =====================================
+// SHOW NAMES WHEN ZOOMED
+// =====================================
+
+
+function updateLabels(){
+
+
+    let zoom = map.getZoom();
+
+
+    systems.forEach(system=>{
+
+
+        if(!system.marker) return;
+
+
+        if(zoom >= -1){
+
+
+            system.marker.openTooltip();
+
+
+        }
+
+        else{
+
+
+            system.marker.closeTooltip();
+
+
+        }
+
+
+    });
+
+
+}
+
+
+
+map.on(
+
+    "zoomend",
+
+    updateLabels
+
+);
+
+
+updateLabels();
 
 </script>
 
