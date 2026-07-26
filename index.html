@@ -1,9 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SWRP Genesis Galaxy Map</title>
-  </head>
-  <body>
-    <h1>Galaxy Map Loading...</h1>
-  </body>
+
+<head>
+
+<title>SWRP Genesis Galaxy Map</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+
+<style>
+
+html, body {
+
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background:#000;
+
+}
+
+
+#map {
+
+    width:100%;
+    height:100vh;
+
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div id="map"></div>
+
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+
+<script>
+
+
+const imageWidth = 6000;
+const imageHeight = 3375;
+
+
+const bounds = [
+
+    [0,0],
+
+    [imageHeight,imageWidth]
+
+];
+
+
+
+const map = L.map("map", {
+
+    crs:L.CRS.Simple,
+
+    minZoom:-2,
+
+    maxZoom:3
+
+});
+
+
+
+L.imageOverlay(
+
+"genesis-map-v0-0-1.png",
+
+bounds
+
+).addTo(map);
+
+
+
+map.fitBounds(bounds);
+
+
+
+</script>
+
+
+</body>
+
 </html>
