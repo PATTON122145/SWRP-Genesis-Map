@@ -1447,6 +1447,24 @@ link:
 
 {
     
+name:"CZ-198",
+
+x:2379,
+
+y:2599,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/CZ-198"
+
+},
+
+{
+    
 name:"Dantooine",
 
 x:2950,
@@ -2793,6 +2811,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Honoghr/Legends"
+
+},
+
+{
+
+name:"Hull's Star",
+
+x:3891,
+
+y:2837,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hull's_Star_system/Legends"
 
 },
     
@@ -5759,6 +5795,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Uogo'cor/Legends"
+
+},
+
+{
+
+name:"Ulicia",
+
+x:3861,
+
+y:2812,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ulicia"
 
 },
     
