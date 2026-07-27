@@ -2734,22 +2734,47 @@ link:
 "https://starwars.fandom.com/wiki/Helska_system/Legends"
 
 },
-    
+
 {
+    type:"system",
 
-name:"fucking goddamn hiit",
+    name:"Hiit System",
 
-x:3836,
+    x:3836,
 
-y:2803,
+    y:2803,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Hiit"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Maal",
+
+                    link:"https://starwars.fandom.com/wiki/Maal",
+
+                    moons:[
+
+                        {
+                            name:"Hiit",
+                            link:"https://starwars.fandom.com/wiki/Hiit"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
