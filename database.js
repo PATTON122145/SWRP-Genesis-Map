@@ -3206,9 +3206,9 @@ link:
 
     name:"Kalee System",
 
-    x:3395,
+    x:2714,
 
-    y:2023,
+    y:2721,
 
     description:"",
 
@@ -3221,13 +3221,13 @@ link:
             worlds:[
 
                 {
-                    name:"Kalee",
-                    link:"https://starwars.fandom.com/wiki/Kalee"
+                    name:"Abbaji Minor",
+                    link:"https://starwars.fandom.com/wiki/Abbaji_(Kalee_system)"
                 },
 
                 {
-                    name:"Abbaji Minor",
-                    link:"https://starwars.fandom.com/wiki/Abbaji_(Kalee_system)"
+                    name:"Kalee",
+                    link:"https://starwars.fandom.com/wiki/Kalee/Legends"
                 }
 
             ]
