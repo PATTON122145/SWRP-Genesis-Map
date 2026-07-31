@@ -711,6 +711,24 @@ link:
 
 {
 
+name:"Bettok",
+
+x:2785,
+
+y:2668,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bettok
+
+},
+
+{
+
 name:"Bextar",
 
 x:2793,
@@ -3238,9 +3256,9 @@ link:
 
     name:"Kalee System",
 
-    x:2714,
+    x:2732,
 
-    y:2721,
+    y:2716,
 
     description:"",
 
