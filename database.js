@@ -708,6 +708,24 @@ link:
 "https://starwars.fandom.com/wiki/Bescane/Legends"
 
 },
+
+{
+
+name:"Bettok",
+
+x:2785,
+
+y:2668,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bettok
+
+},
     
 {
 
