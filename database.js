@@ -699,10 +699,6 @@ x:2830,
 
 y:2770,
 
-affiliation:
-    
-"Fel Empire",
-    
 description:
 
 "",
@@ -710,6 +706,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Bescane/Legends"
+
+},
+
+{
+
+name:"Bextar",
+
+x:2793,
+
+y:2648,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bextar"
 
 },
     
@@ -982,6 +996,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Brochiib"
+
+},
+
+{
+
+name:"Brodo Asogi",
+
+x:2706,
+
+y:2643,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Brodo_Asogi"
 
 },
     
@@ -4350,6 +4382,24 @@ link:
 "https://starwars.fandom.com/wiki/Ord_Radama/Legends"
 
 },
+
+{
+
+name:"Ord Thoden",
+
+x:2575,
+
+y:2740,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ord_Radama/Legends"
+
+},
     
 {
 
@@ -4528,6 +4578,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Paqualis_III/Legends"
+
+},
+
+{
+
+name:"Parshoone",
+
+x:2714,
+
+y:2669,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Parshoone"
 
 },
     
