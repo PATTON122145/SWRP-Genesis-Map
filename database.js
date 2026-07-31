@@ -558,6 +558,24 @@ link:
 "https://starwars.fandom.com/wiki/Balamak/Legends"
 
 },
+
+{
+
+name:"Baramorra",
+
+x:2756,
+
+y:2703,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Baramorra"
+
+},
     
 {
 
@@ -1126,6 +1144,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Cantras_Gola"
+
+},
+
+{
+
+name:"Capza",
+
+x:2823,
+
+y:2634,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Capza"
 
 },
     
@@ -2294,6 +2330,24 @@ link:
 "https://starwars.fandom.com/wiki/Fornax/Legends"
 
 },
+
+{
+    
+name:"Gabredor III",
+
+x:2884,
+
+y:2719,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gabredor_III/Legends"
+
+},
     
 {
     
@@ -2364,6 +2418,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Garqi/Legends"
+
+},
+
+{
+    
+name:"Gelda",
+
+x:2796,
+
+y:2699,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gelda_system/Legends"
 
 },
     
@@ -3323,6 +3395,24 @@ link:
     ]
 
 },
+
+{
+
+name:"Karavis",
+
+x:2860,
+
+y:2737,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Karavis"
+
+},
     
 {
     type:"system",
@@ -3856,6 +3946,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Maridun/Legends"
+
+},
+
+{
+
+name:"Marmoth",
+
+x:2876,
+
+y:2639,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Marmoth"
 
 },
     
@@ -4850,6 +4958,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Qonto_system/Legends"
+
+},
+
+{
+
+name:"Quanton",
+
+x:2847,
+
+y:2712,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Quanton"
 
 },
     
