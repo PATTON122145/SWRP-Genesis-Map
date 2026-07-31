@@ -711,7 +711,7 @@ link:
 
 {
 
-name:"Bettox",
+name:"Bettok",
 
 x:2785,
 
@@ -1535,9 +1535,9 @@ link:
     
 name:"Dactruria",
 
-x:2950,
+x:2774,
 
-y:2700,
+y:2688,
 
 description:
 
@@ -1654,6 +1654,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Dellalt/Legends"
+
+},
+
+{
+    
+name:"Delephr",
+
+x:2783,
+
+y:2716,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Delephr_system/Legends"
 
 },
     
@@ -5814,6 +5832,24 @@ link:
 "https://starwars.fandom.com/wiki/Tothis"
 
 },
+
+{
+
+name:"Tovarskl",
+
+x:2730,
+
+y:2695,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tovarskl"
+
+},
     
 {
 
@@ -6268,6 +6304,26 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Veragi_system/Legends"
+
+},
+
+{
+
+name:"Vexta",
+
+aka:"Vexta Belt",
+
+x:2776,
+
+y:2726,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vexta_system/Legends"
 
 },
 
