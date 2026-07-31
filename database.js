@@ -1060,6 +1060,24 @@ link:
 "https://starwars.fandom.com/wiki/Cantonica"
 
 },
+
+{
+
+name:"Cantras Gola",
+
+x:2755,
+
+y:2636,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cantras_Gola"
+
+},
     
 {
 
@@ -2406,6 +2424,26 @@ link:
 "https://starwars.fandom.com/wiki/Gromas/Legends"
 
 },
+
+{
+
+name:"Guiteica",
+
+aka:"Kadok III-D",
+
+x:2704,
+
+y:2738,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Guiteica/Legends"
+
+},
     
 {
 
@@ -2816,6 +2854,24 @@ link:
 
 {
 
+name:"Huk",
+
+x:2701,
+
+y:2704,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Huk/Legends"
+
+},
+
+{
+
 name:"Hull's Star",
 
 x:3891,
@@ -3144,22 +3200,41 @@ link:
 "https://starwars.fandom.com/wiki/Kail"
 
 },
-    
+
 {
+    type:"system",
 
-name:"Kalee",
+    name:"Kalee System",
 
-x:2715,
+    x:3395,
 
-y:2720,
-    
-description:
+    y:2023,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Kalee/Legends"
+        {
+
+            label:"",
+            
+            worlds:[
+
+                {
+                    name:"Kalee",
+                    link:"https://starwars.fandom.com/wiki/Kalee"
+                },
+
+                {
+                    name:"Abbaji Minor",
+                    link:"https://starwars.fandom.com/wiki/Abbaji_(Kalee_system)"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -5381,6 +5456,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Taskeed/Legends"
+
+},
+
+{
+
+name:"Taspir III",
+
+x:2763,
+
+y:2759,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Taspir_III"
 
 },
     
