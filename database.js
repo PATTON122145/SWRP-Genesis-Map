@@ -708,24 +708,6 @@ link:
 "https://starwars.fandom.com/wiki/Bescane/Legends"
 
 },
-
-{
-
-name:"Bextar",
-
-x:2793,
-
-y:2648,
-
-description:
-
-"",
-
-link:
-
-"https://starwars.fandom.com/wiki/Bextar"
-
-},
     
 {
 
