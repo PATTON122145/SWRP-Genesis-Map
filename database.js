@@ -723,7 +723,7 @@ description:
 
 link:
 
-"https://starwars.fandom.com/wiki/Bettok
+"https://starwars.fandom.com/wiki/Bettok"
 
 },
     
