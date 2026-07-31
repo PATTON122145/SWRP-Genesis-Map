@@ -1530,7 +1530,25 @@ link:
 "https://starwars.fandom.com/wiki/CZ-198"
 
 },
+/*
+{
+    
+name:"Dactruria",
 
+x:2950,
+
+y:2700,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Dactruria_system/Legends"
+
+},
+*/
 {
     
 name:"Dantooine",
