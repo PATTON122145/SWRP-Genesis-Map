@@ -834,6 +834,24 @@ link:
 "https://starwars.fandom.com/wiki/Birgis"
 
 },
+
+{
+
+name:"Bisellia",
+
+x:2853,
+
+y:2669,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bisellia_system/Legends"
+
+},
     
 {
 
@@ -2058,6 +2076,24 @@ link:
 "https://starwars.fandom.com/wiki/Elom_(planet)/Legends"
 
 },
+
+{
+    
+name:"Endoraan",
+
+x:2832,
+
+y:2677,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Endoraan"
+
+},
     
 {
     
@@ -2636,6 +2672,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/G'wenee/Legends"
+
+},
+
+{
+
+name:"Gwori",
+
+x:2925,
+
+y:2644,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gwori"
 
 },
     
@@ -6394,6 +6448,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vena"
+
+},
+
+{
+
+name:"Venestria",
+
+x:2878,
+
+y:2687,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ventooine/Legends"
 
 },
     
