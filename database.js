@@ -711,6 +711,24 @@ link:
 
 {
 
+name:"Bettox",
+
+x:2785,
+
+y:2668,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bettok"
+
+},
+
+{
+
 name:"Bextar",
 
 x:2793,
