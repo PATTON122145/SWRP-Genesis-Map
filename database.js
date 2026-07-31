@@ -1272,6 +1272,24 @@ link:
 "https://starwars.fandom.com/wiki/Centares/Legends"
 
 },
+
+{
+
+name:"Cezith",
+
+x:2868,
+
+y:2655,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cezith_system/Legends"
+
+},
     
 {
 
@@ -3690,6 +3708,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Kwenn/Legends"
+
+},
+
+{
+
+name:"Kwevron",
+
+x:2893,
+
+y:2674,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kwevron"
 
 },
     
