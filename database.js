@@ -1997,6 +1997,24 @@ link:
 
 {
     
+name:"Doniphon",
+
+x:3540,
+
+y:2719,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Doniphon"
+
+},
+
+{
+    
 name:"Dorin",
 
 x:2750,
@@ -3545,6 +3563,24 @@ link:
 
 {
 
+name:"Jelucan",
+
+x:3591,
+
+y:2682,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Jelucan"
+
+},
+
+{
+
 name:"Jerne",
 
 x:3211,
@@ -4043,9 +4079,9 @@ link:
 
 name:"Listehol",
 
-x:3600,
+x:3627,
 
-y:2730,
+y:2733,
     
 description:
 
@@ -5749,7 +5785,7 @@ name:"Seelos",
 
 x:3580,
 
-y:2675,
+y:2660,
 
 description:
 
@@ -6068,6 +6104,43 @@ link:
 "https://starwars.fandom.com/wiki/Tangrene"
 
 },
+
+{
+    type:"system",
+
+    name:"Tantive System",
+
+    x:3600,
+
+    y:2730,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Tantive IV",
+                    link:"https://starwars.fandom.com/wiki/Tantive_IV_(planet)"
+                },
+
+                {
+                    name:"Tantive V",
+                    link:"https://starwars.fandom.com/wiki/Tantive_V"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
 
@@ -6239,7 +6312,7 @@ name:"Thila",
 
 x:3610,
 
-y:2660,
+y:2643,
 
 description:
 
