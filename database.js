@@ -288,6 +288,24 @@ link:
 "https://starwars.fandom.com/wiki/Anaxes/Legends"
 
 },
+
+{
+
+name:"Angor",
+
+x:2913,
+
+y:2705,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Angor_system/Legends"
+
+},
     
 {
 
@@ -358,6 +376,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Anteevy/Legends"
+
+},
+
+{
+
+name:"Anx Minor",
+
+x:3002,
+
+y:2658,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Anx_Minor/Legends"
 
 },
     
@@ -2348,6 +2384,24 @@ link:
 "https://starwars.fandom.com/wiki/Florrum/Legends"
 
 },
+
+{
+    
+name:"Fodros",
+
+x:2905,
+
+y:2656,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Fodro"
+
+},
     
 {
     
@@ -3234,10 +3288,6 @@ x:2830,
 
 y:2730,
 
-affiliation:
-    
-"Fel Empire",
-    
 description:
 
 "",
@@ -3544,6 +3594,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Keitum/Legends"
+
+},
+
+{
+
+name:"Kesmere",
+
+x:2990,
+
+y:2698,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kesmere_system/Legends"
 
 },
     
@@ -5012,6 +5080,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pits_of_Plooma/Legends"
+
+},
+
+{
+
+name:"Praya",
+
+x:2918,
+
+y:2680,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Praya"
 
 },
     
