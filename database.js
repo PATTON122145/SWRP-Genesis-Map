@@ -198,6 +198,24 @@ link:
 "https://starwars.fandom.com/wiki/Akuria_II"
 
 },
+
+{
+
+name:"Aldivy",
+
+x:3591,
+
+y:2633,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Aldivy"
+
+},
     
 {
 
@@ -2408,6 +2426,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Felucia/Legends"
+
+},
+
+{
+    
+name:"Ferro",
+
+x:3620,
+
+y:2674,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ferro"
 
 },
     
@@ -5904,6 +5940,24 @@ link:
 "https://starwars.fandom.com/wiki/Shusugaunt"
 
 },
+
+{
+
+name:"Sikurd",
+
+x:3653,
+
+y:2679,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Sikurd"
+
+}, 
 
 {
 
