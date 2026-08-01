@@ -852,6 +852,24 @@ link:
 "https://starwars.fandom.com/wiki/Bextar"
 
 },
+
+{
+
+name:"Bhargebba Six",
+
+x:3750,
+
+y:2662,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bhargebba_Six"
+
+},
     
 {
 
@@ -1700,6 +1718,24 @@ link:
 "https://starwars.fandom.com/wiki/Coruscant/Legends"
 
 },
+
+{
+
+name:"Craci",
+
+x:3804,
+
+y:2730,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Craci"
+
+},
     
 {
 
@@ -2136,6 +2172,24 @@ link:
         }
 
     ]
+
+},
+
+{
+    
+name:"Dra III",
+
+x:3794,
+
+y:2719,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Dra_III"
 
 },
     
@@ -3448,6 +3502,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Iego/Legends"
+
+},
+
+{
+
+name:"Iliabath",
+
+x:3795,
+
+y:2660,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Iliabath"
 
 },
     
@@ -4891,6 +4963,24 @@ link:
 "https://starwars.fandom.com/wiki/Nez_Peron/Legends"
 
 },
+
+{
+
+name:"Nfolgai",
+
+x:3778,
+
+y:2653,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nfolgai"
+
+},
     
 {
 
@@ -4907,24 +4997,6 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Nimban/Legends"
-
-},
-    
-{
-
-name:"Nouane",
-
-x:3198,
-
-y:2235,
-
-description:
-
-"",
-
-link:
-
-"https://starwars.fandom.com/wiki/Nouane/Legends"
 
 },
     
@@ -4961,6 +5033,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Nirauan/Legends"
+
+},
+
+{
+
+name:"Nouane",
+
+x:3198,
+
+y:2235,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nouane/Legends"
 
 },
     
