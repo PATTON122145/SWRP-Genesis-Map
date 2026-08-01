@@ -3614,6 +3614,24 @@ link:
 "https://starwars.fandom.com/wiki/Kesmere_system/Legends"
 
 },
+
+{
+
+name:"Kesmere Minor",
+
+x:2988,
+
+y:2719,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kesmere_Minor_system/Legends"
+
+},
     
 {
 
@@ -5952,6 +5970,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Tepasi/Legends"
+
+},
+
+{
+
+name:"Tertiary Kesmere",
+
+x:2983,
+
+y:2735,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tertiary_Kesmere"
 
 },
     
