@@ -765,6 +765,24 @@ link:
 
 {
 
+name:"Betha II",
+
+x:3461,
+
+y:2727,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Betha_II"
+
+},
+
+{
+
 name:"Bettok",
 
 x:2785,
@@ -1216,6 +1234,68 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Capza"
+
+},
+
+{
+    type:"system",
+
+    name:"Carosus System",
+
+    x:3532,
+
+    y:2691,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Carosi VI",
+                    link:"https://starwars.fandom.com/wiki/Carosi_VI"
+                },
+
+                {
+                    name:"Carosi VII",
+                    link:"https://starwars.fandom.com/wiki/Carosi_VII"
+                },
+
+                {
+                    name:"Carosi VIII",
+                    link:"https://starwars.fandom.com/wiki/Carosi_VIII"
+                },
+
+                {
+                    name:"Carosi IX",
+                    link:"https://starwars.fandom.com/wiki/Carosi_IX"
+                },
+
+                {
+                    name:"Carosi X",
+                    link:"https://starwars.fandom.com/wiki/Carosi_X"
+                },
+
+                {
+                    name:"Carosi XI",
+                    link:"https://starwars.fandom.com/wiki/Carosi_XI"
+                },
+
+                {
+                    name:"Carosi XII",
+                    link:"https://starwars.fandom.com/wiki/Carosi_XII"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -5188,6 +5268,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pits_of_Plooma/Legends"
+
+},
+
+{
+
+name:"Praadost II",
+
+x:3518,
+
+y:2641,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Praadost_II"
 
 },
 
