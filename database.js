@@ -457,7 +457,7 @@ name:"Argazda",
 
 x:3250,
 
-y:2660,
+y:2642,
 
 description:
 
@@ -2202,6 +2202,24 @@ link:
 "https://starwars.fandom.com/wiki/Equanus"
 
 },
+
+{
+    
+name:"Ereesus",
+
+x:3256,
+
+y:2704,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ereesus"
+
+},
     
 {
     
@@ -3171,6 +3189,24 @@ link:
 "https://starwars.fandom.com/wiki/Hull's_Star_system/Legends"
 
 },
+
+{
+
+name:"Ibanjji",
+
+x:3298,
+
+y:2739,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ibanjji"
+
+},
     
 {
 
@@ -3738,6 +3774,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Knolstee"
+
+},
+
+{
+
+name:"Kol Huro",
+    
+x:3283,
+
+y:2660,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kol_Huro_system/Legends"
 
 },
     
@@ -5662,6 +5716,42 @@ link:
 "https://starwars.fandom.com/wiki/Shili/Legends"
 
 },
+
+{
+
+name:"Shusugaunt",
+
+x:3014,
+
+y:2730,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Shusugaunt"
+
+},
+
+{
+
+name:"Sinsang",
+
+x:2971,
+
+y:2674,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Sinsang"
+
+}, 
     
 {
 
