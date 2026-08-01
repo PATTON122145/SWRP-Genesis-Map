@@ -3462,6 +3462,24 @@ link:
 "https://starwars.fandom.com/wiki/Jazbina/Legends"
 
 },
+
+{
+
+name:"Jerne",
+
+x:3211,
+
+y:2660,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Jerne"
+
+},
     
 {
 
@@ -3738,6 +3756,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Kir"
+
+},
+
+{
+
+name:"Kirtania",
+
+x:3488,
+
+y:2647,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kirtania"
 
 },
     
@@ -7060,6 +7096,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ziost/Legends"
+
+},
+
+{
+
+name:"Zorb",
+
+x:3386,
+
+y:2727,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Zorb"
 
 },
     
