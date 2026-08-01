@@ -558,6 +558,24 @@ link:
 "https://starwars.fandom.com/wiki/Atchorb"
 
 },
+
+{
+
+name:"Athiss",
+
+x:3714,
+
+y:2676,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Athiss/Legends"
+
+},
     
 {
 
@@ -1500,6 +1518,24 @@ link:
 "https://starwars.fandom.com/wiki/Charros_IV/Legends"
 
 },
+
+{
+
+name:"Ch'hodos",
+
+x:3741,
+
+y:2644,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ch'hodos"
+
+},
     
 {
 
@@ -2120,6 +2156,43 @@ link:
 "https://starwars.fandom.com/wiki/Drearia/Legends"
 
 },
+
+{
+    type:"system",
+
+    name:"Drog System",
+
+    x:3798,
+
+    y:2745,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Drog II",
+                    link:"https://starwars.fandom.com/wiki/Drog_II"
+                },
+
+                {
+                    name:"Drog VI",
+                    link:"https://starwars.fandom.com/wiki/Drog_VI"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
     
@@ -2732,6 +2805,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Generis/Legends"
+
+},
+
+{
+
+name:"Gigor",
+
+x:3734,
+
+y:2711,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gigor/Legends"
 
 },
     
@@ -3726,6 +3817,24 @@ link:
 
 {
 
+name:"Kalsunor",
+
+x:3706,
+
+y:2631,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kalsunor"
+
+},
+    
+{
+
 name:"Karavis",
 
 x:2860,
@@ -4002,6 +4111,24 @@ link:
 "https://starwars.fandom.com/wiki/Korriban/Legends"
 
 },
+
+{
+
+name:"Korriz",
+
+x:3697,
+
+y:2663,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Korriz"
+
+},
     
 {
 
@@ -4200,6 +4327,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Lucazec/Legends"
+
+},
+
+{
+
+name:"Lur",
+
+x:3761,
+
+y:2737,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Lur"
 
 },
     
