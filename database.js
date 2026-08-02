@@ -128,20 +128,44 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ajan Kloss",
+    name:"Ajara System",
 
-x:3005,
+    x:3025,
 
-y:2515,
+    y:2515,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Ajan_Kloss"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Ajara",
+                    link:"https://starwars.fandom.com/wiki/Ajara",
+
+                    moons:[
+
+                        {
+                            name:"Ajan Kloss",
+                            link:"https://starwars.fandom.com/wiki/Ajan_Kloss"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -2241,41 +2265,22 @@ link:
 "https://starwars.fandom.com/wiki/Desevro/Legends"
 
 },
-    
+
 {
-    type:"system",
+    
+name:"Devon Four",
 
-    name:"Horuz System",
+x:3040,
 
-    x:2910,
+y:2557,
 
-    y:2545,
+description:
 
-    description:"",
+"",
 
-    worldGroups:[
+link:
 
-        {
-
-            label:"",
-
-            worlds:[
-
-                {
-                    name:"Despayre",
-                    link:"https://starwars.fandom.com/wiki/Despayre"
-                },
-
-                {
-                    name:"Haroon",
-                    link:"https://starwars.fandom.com/wiki/Haroon"
-                }
-
-            ]
-
-        }
-
-    ]
+"https://starwars.fandom.com/wiki/Devon_Four"
 
 },
     
@@ -3331,20 +3336,44 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Generis",
+    name:"Generis System",
 
-x:3050,
+    x:3050,
 
-y:2570,
+    y:2570,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Generis/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Generis",
+                    link:"https://starwars.fandom.com/wiki/Generis/Legends"
+                },
+
+                {
+                    name:"Atrivis",
+                    link:"https://starwars.fandom.com/wiki/Atrivis"
+                },
+
+                {
+                    name:"Atrivis 7",
+                    link:"https://starwars.fandom.com/wiki/Atrivis_7"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -3877,6 +3906,24 @@ link:
 },
 
 {
+
+name:"Hethar",
+
+x:3055,
+
+y:2583,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hethar"
+
+},
+
+{
     type:"system",
 
     name:"Hiit System",
@@ -3934,6 +3981,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Honoghr/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Horuz System",
+
+    x:2910,
+
+    y:2545,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Despayre",
+                    link:"https://starwars.fandom.com/wiki/Despayre"
+                },
+
+                {
+                    name:"Haroon",
+                    link:"https://starwars.fandom.com/wiki/Haroon"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -7420,6 +7504,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Soullex"
+
+},
+
+{
+
+name:"Spefik",
+
+x:2978,
+
+y:2547,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Spefik"
 
 },
     
