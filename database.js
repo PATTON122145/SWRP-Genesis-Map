@@ -888,6 +888,24 @@ link:
 "https://starwars.fandom.com/wiki/Bhargebba_Six"
 
 },
+
+{
+
+name:"Biewa",
+
+x:3858,
+
+y:2704,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Biewa"
+
+},
     
 {
 
@@ -1255,9 +1273,9 @@ link:
 
 name:"Cantonica",
 
-x:3879,
+x:3881,
 
-y:2697,
+y:2704,
 
 description:
 
@@ -2892,6 +2910,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Garqi/Legends"
+
+},
+
+{
+    
+name:"Gaurick",
+
+x:3909,
+
+y:2690,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gaurick"
 
 },
 
