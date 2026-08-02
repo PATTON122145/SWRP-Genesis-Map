@@ -1223,7 +1223,7 @@ name:"Borosk",
 
 x:2830,
 
-y:2560,
+y:2555,
     
 description:
 
@@ -5669,6 +5669,24 @@ link:
 "https://starwars.fandom.com/wiki/Ocsin_(planet)"
 
 },
+
+{
+
+name:"Ompersan",
+
+x:2825,
+
+y:2585,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ompersan"
+
+},
  
 {
 
@@ -6273,7 +6291,7 @@ name:"Prefsbelt IV",
 
 x:2827,
 
-y:2575,
+y:2570,
 
 description:
 
@@ -8299,6 +8317,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Yinchorr/Legends"
+
+},
+
+{
+
+name:"Yorgraxx",
+
+x:2824,
+
+y:2509,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Yorgraxx"
 
 },
     
