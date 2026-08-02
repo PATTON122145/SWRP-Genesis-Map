@@ -5289,6 +5289,24 @@ link:
 "https://starwars.fandom.com/wiki/Metalorn/Legends"
 
 },
+
+{
+
+name:"Minashee",
+
+x:2881,
+
+y:2564,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Minashee/Legends"
+
+},
     
 {
 
@@ -5361,6 +5379,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Mon_Calamari/Legends"
+
+},
+
+{
+
+name:"Monhudle",
+
+x:2867,
+
+y:2546,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Monhudle"
 
 },
     
@@ -6680,6 +6716,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Revyia"
+
+},
+
+{
+
+name:"Reynon",
+
+x:2858,
+
+y:2533,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Reynon"
 
 },
     
