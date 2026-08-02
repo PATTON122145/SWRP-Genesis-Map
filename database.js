@@ -2333,6 +2333,24 @@ link:
 "https://starwars.fandom.com/wiki/Dubrillion/Legends"
 
 },
+
+{
+    
+name:"Duroon",
+
+x:3847,
+
+y:2695,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Duroon"
+
+},
   
 {
     
@@ -4850,6 +4868,24 @@ link:
 "https://starwars.fandom.com/wiki/Marmoth"
 
 },
+
+{
+
+name:"Matra VI",
+
+x:3905,
+
+y:2672,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Matra_VI"
+
+},
     
 {
 
@@ -5599,7 +5635,7 @@ name:"Oslumpex V",
 
 x:3888,
 
-y:2679,
+y:2685,
 
 description:
 
@@ -7401,6 +7437,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Urce"
+
+},
+
+{
+
+name:"Urdur",
+
+x:3876,
+
+y:2675,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Urdur/Legends"
 
 },
     
