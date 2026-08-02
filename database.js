@@ -345,6 +345,25 @@ link:
 
 {
 
+name:"Anemcoro",
+
+x:2929,
+
+y:2567,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Anemcoro"
+
+},
+
+
+{
+
 name:"Angor",
 
 x:2913,
@@ -4905,6 +4924,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Lythos_Nine"
+
+},
+
+{
+    type:"system",
+
+    name:"Maelstrom Nebula",
+
+    x:2928,
+
+    y:2608,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Maelstrom Prison",
+                    link:"https://starwars.fandom.com/wiki/Maelstrom_Prison"
+                },
+
+                {
+                    name:"Oasis",
+                    link:"https://starwars.fandom.com/wiki/Oasis_(moon)"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
    
