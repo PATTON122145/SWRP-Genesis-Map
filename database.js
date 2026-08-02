@@ -288,6 +288,24 @@ link:
 "https://starwars.fandom.com/wiki/Ambria/Legends"
 
 },
+
+{
+
+name:"Ammuud",
+
+x:3868,
+
+y:2679,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ammuud/Legends"
+
+},
     
 {
 
@@ -4026,6 +4044,24 @@ link:
 "https://starwars.fandom.com/wiki/Junkfort_Station/Legends"
 
 },
+
+{
+
+name:"Kadavo",
+
+x:3930,
+
+y:2657,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kadavo/Legends"
+
+},
     
 {
 
@@ -5592,6 +5628,24 @@ link:
 "https://starwars.fandom.com/wiki/Orinda/Legends"
 
 },
+
+{
+
+name:"Orron III",
+
+x:3911,
+
+y:2662,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Orron_III"
+
+},
    
 {
 
@@ -6332,6 +6386,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ruusan/Legends"
+
+},
+
+{
+
+name:"Saclas",
+
+x:3838,
+
+y:2692,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Saclas"
 
 },
 
@@ -7444,9 +7516,9 @@ link:
 
 name:"Urdur",
 
-x:3876,
+x:3880,
 
-y:2675,
+y:2683,
 
 description:
 
@@ -8032,7 +8104,7 @@ name:"Zygerria",
 
 x:3825,
 
-y:2680,
+y:2670,
     
 description:
 
