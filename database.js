@@ -5327,6 +5327,24 @@ link:
 "https://starwars.fandom.com/wiki/Morellia/Legends"
 
 },
+
+{
+
+name:"Morishim",
+
+x:2907,
+
+y:2603,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Morishim"
+
+},
     
 {
 
@@ -6828,6 +6846,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Salient_II"
+
+},
+
+{
+
+name:"Scipio",
+
+x:2867,
+
+y:2598,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Scipio/Legends"
 
 },
     
