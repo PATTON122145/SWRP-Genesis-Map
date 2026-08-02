@@ -1567,6 +1567,24 @@ link:
 "https://starwars.fandom.com/wiki/Cartao/Legends"
 
 },
+
+{
+
+name:"Cassander",
+
+x:2920,
+
+y:2534,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cassander"
+
+},
     
 {
 
@@ -5669,6 +5687,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/New_Apsolon/Legends"
+
+},
+
+{
+
+name:"New Bakstre",
+
+x:2929,
+
+y:2530,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/New_Bakstre"
 
 },
     
