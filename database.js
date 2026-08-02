@@ -1237,13 +1237,9 @@ link:
 
 name:"Cantonica",
 
-x:3865,
+x:3879,
 
-y:2735,
-    
-affiliation:
-    
-"Corporate Sector Authority",
+y:2714,
 
 description:
 
@@ -2519,6 +2515,24 @@ link:
 },
 
 {
+    
+name:"Ession",
+
+x:3855,
+
+y:2725,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ession"
+
+},
+
+{
     type:"system",
 
     name:"Etti System",
@@ -3629,6 +3643,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Iridonia/Legends"
+
+},
+
+{
+
+name:"Issagra",
+
+x:3896,
+
+y:2733,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Issagra"
 
 },
     
@@ -6102,6 +6134,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ruusan/Legends"
+
+},
+
+{
+
+name:"Saffalore",
+
+x:3865,
+
+y:2735,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Saffalore"
 
 },
     
