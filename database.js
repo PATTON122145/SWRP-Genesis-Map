@@ -2243,22 +2243,39 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Despayre",
-    
-aka:"Horuz",
+    name:"Horuz System",
 
-x:3035,
+    x:2910,
 
-y:2595,
+    y:2545,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Despayre"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Despayre",
+                    link:"https://starwars.fandom.com/wiki/Despayre"
+                },
+
+                {
+                    name:"Haroon",
+                    link:"https://starwars.fandom.com/wiki/Haroon"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -3208,20 +3225,54 @@ link:
 },
     
 {
-    
-name:"Garqi",
+    type:"system",
 
-x:2910,
+    name:"Garqi System",
 
-y:2545,
+    x:2910,
 
-description:
+    y:2545,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Garqi/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Kalki",
+                    link:"https://starwars.fandom.com/wiki/Kalki"
+                },
+
+                {
+                    name:"Garqi",
+                    link:"https://starwars.fandom.com/wiki/Garqi/Legends"
+                },
+
+                {
+                    name:"Jinathik asteroid belt",
+                    link:"https://starwars.fandom.com/wiki/Jinathik"
+                },
+
+                {
+                    name:"Elsho",
+                    link:"https://starwars.fandom.com/wiki/Elsho"
+                },
+
+                {
+                    name:"Kalki's Braid asteroid belt",
+                    link:"https://starwars.fandom.com/wiki/Kalki%27s_Braid"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -4032,6 +4083,25 @@ link:
 
 {
 
+name:"Isiring",
+
+x:2957,
+
+y:2514,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Isiring"
+
+},
+
+
+{
+
 name:"Issagra",
 
 x:3896,
@@ -4409,6 +4479,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Kalki Nebula",
+
+x:2947,
+
+y:2538,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kalki_Nebula/Legends"
 
 },
 
