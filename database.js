@@ -201,6 +201,24 @@ link:
 
 {
 
+name:"Alashan",
+
+x:2761,
+
+y:2531,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Alashan"
+
+},
+
+{
+
 name:"Aldivy",
 
 x:3591,
@@ -837,6 +855,24 @@ link:
 
 {
 
+name:"Betal",
+
+x:2704,
+
+y:2592,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Betal"
+
+},
+
+{
+
 name:"Betha II",
 
 x:3461,
@@ -904,6 +940,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Bhargebba_Six"
+
+},
+
+{
+
+name:"Bid'jerma",
+
+x:2798,
+
+y:2519,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bid'jerma"
 
 },
 
@@ -2444,6 +2498,24 @@ link:
 
 {
     
+name:"Endex",
+
+x:2799,
+
+y:2619,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Endex"
+
+},
+
+{
+    
 name:"Endoraan",
 
 x:2832,
@@ -2658,6 +2730,63 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Exegol"
+
+},
+
+{
+    type:"system",
+
+    name:"Faarlson System",
+
+    x:3980,
+
+    y:2731,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Jun",
+                    link:"https://starwars.fandom.com/wiki/Jun"
+                },
+
+                {
+                    name:"Weken",
+                    link:"https://starwars.fandom.com/wiki/Weken"
+                },
+
+                {
+                    name:"Pochi",
+                    link:"https://starwars.fandom.com/wiki/Pochi"
+                },
+
+                {
+                    name:"Koss",
+                    link:"https://starwars.fandom.com/wiki/Koss"
+                },
+
+                {
+                    name:"Calipp",
+                    link:"https://starwars.fandom.com/wiki/Calipp"
+                },
+
+                {
+                    name:"Zossi Belt",
+                    link:"https://starwars.fandom.com/wiki/Zossi_Belt"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -5970,6 +6099,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pits_of_Plooma/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Poln System",
+
+    x:2797,
+
+    y:2551,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Poln Major",
+                    link:"https://starwars.fandom.com/wiki/Poln_Major"
+                },
+
+                {
+                    name:"Poln Minor",
+                    link:"https://starwars.fandom.com/wiki/Poln_Minor"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
