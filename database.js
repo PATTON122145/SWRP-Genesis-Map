@@ -1513,6 +1513,24 @@ link:
     ]
 
 },
+
+{
+
+name:"Carlac",
+
+x:2829,
+
+y:2522,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Carlac/Legends"
+
+},
     
 {
 
