@@ -2481,6 +2481,24 @@ link:
 "https://starwars.fandom.com/wiki/Er'Kit/Legends"
 
 },
+
+{
+    
+name:"Erysthes",
+
+x:3876,
+
+y:2743,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Erysthes"
+
+},
     
 {
     
@@ -3939,6 +3957,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Kalsunor"
+
+},
+
+{
+
+name:"Kamar",
+
+x:3921,
+
+y:2743,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kamar/Legends"
 
 },
     
@@ -5814,6 +5850,24 @@ link:
 "https://starwars.fandom.com/wiki/R'alla"
 
 },
+
+{
+
+name:"Rampa III",
+
+x:3894,
+
+y:2742,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Rampa_III"
+
+},
     
 {
 
@@ -6757,6 +6811,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Thustra/Legends"
+
+},
+
+{
+
+name:"Tirsa",
+
+x:3836,
+
+y:2727,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tirsa"
 
 },
     
