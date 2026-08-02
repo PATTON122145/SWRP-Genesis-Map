@@ -2499,6 +2499,43 @@ link:
 "https://starwars.fandom.com/wiki/Esfandia/Legends"
 
 },
+
+{
+    type:"system",
+
+    name:"Etti System",
+
+    x:3846,
+
+    y:2737,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Etti IV",
+                    link:"https://starwars.fandom.com/wiki/Etti_IV"
+                },
+
+                {
+                    name:"Etti V",
+                    link:"https://starwars.fandom.com/wiki/Etti_V"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
     
@@ -4255,6 +4292,24 @@ link:
 "https://starwars.fandom.com/wiki/Kwevron"
 
 },
+
+{
+
+name:"Lafra",
+
+x:3767,
+
+y:2696,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Lafra"
+
+},
     
 {
 
@@ -4458,7 +4513,7 @@ link:
     
 {
 
-name:"Malachor",
+name:"Malachor V",
 
 x:3840,
 
@@ -4591,6 +4646,24 @@ name:"Marmoth",
 x:2876,
 
 y:2639,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Marmoth"
+
+},
+
+{
+
+name:"Maryo",
+
+x:3829,
+
+y:2742,
     
 description:
 
@@ -4889,6 +4962,26 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Nar_Haaska/Legends"
+
+},
+
+{
+
+name:"Nathema",
+
+aka:"Medriaas",
+
+x:3855,
+
+y:2642,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nathema"
 
 },
     
@@ -6355,6 +6448,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Sy_Myrth/Legends"
+
+},
+
+{
+
+name:"Svolten",
+
+x:3740,
+
+y:2684,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Svolten_system/Legends"
 
 },
     
