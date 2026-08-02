@@ -1363,7 +1363,7 @@ link:
 
 name:"Cantras Gola",
 
-x:2755,
+x:2745,
 
 y:2636,
 
@@ -1656,6 +1656,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ch'hodos"
+
+},
+
+{
+
+name:"Churruma",
+
+x:2778,
+
+y:2605,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Churruma"
 
 },
     
@@ -5013,6 +5031,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Marmoth"
+
+},
+
+{
+
+name:"Marquarra",
+
+x:2746,
+
+y:2580,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Marquarra"
 
 },
 
