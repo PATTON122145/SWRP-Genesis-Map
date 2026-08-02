@@ -1035,6 +1035,24 @@ link:
 "https://starwars.fandom.com/wiki/Biewa"
 
 },
+
+{
+
+name:"Biitu",
+
+x:2898,
+
+y:2557,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Biitu"
+
+},
     
 {
 
@@ -3732,6 +3750,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Haverling",
+
+x:2906,
+
+y:2590,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Haverling"
 
 },
     
