@@ -3119,6 +3119,24 @@ link:
 
 {
     
+name:"Forsen",
+
+x:2899,
+
+y:2522,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Forsen"
+
+},
+
+{
+    
 name:"Gabredor III",
 
 x:2884,
@@ -5903,6 +5921,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ord_Biniir/Legends"
+
+},
+
+{
+
+name:"Ord Canfre",
+
+x:2893,
+
+y:2513,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ord_Canfre/Legends"
 
 },
     
