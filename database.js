@@ -633,6 +633,24 @@ link:
 
 {
 
+name:"Ban-Satir II",
+
+x:3902,
+
+y:2702,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ban-Satir_II"
+
+},
+
+{
+
 name:"Baramorra",
 
 x:2756,
@@ -1239,7 +1257,7 @@ name:"Cantonica",
 
 x:3879,
 
-y:2714,
+y:2697,
 
 description:
 
@@ -3976,6 +3994,24 @@ link:
 
 {
 
+name:"Kalla VII",
+
+x:3866,
+
+y:2719,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kalla_VII"
+
+},
+
+{
+
 name:"Kalsunor",
 
 x:3706,
@@ -4758,6 +4794,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Maw_Cluster/Legends"
+
+},
+
+{
+
+name:"Media",
+
+x:3845,
+
+y:2713,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Media_(planet)"
 
 },
     
@@ -5736,6 +5790,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pits_of_Plooma/Legends"
+
+},
+
+{
+
+name:"Pondut Station",
+
+x:3879,
+
+y:2714,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Pondut_Station_system"
 
 },
 
