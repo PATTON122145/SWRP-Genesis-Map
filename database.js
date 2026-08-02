@@ -3936,6 +3936,24 @@ link:
 "https://starwars.fandom.com/wiki/Jerne"
 
 },
+
+{
+
+name:"Jerrist VI",
+
+x:3829,
+
+y:2704,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Jerrist_VI"
+
+},
     
 {
 
@@ -3952,6 +3970,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Jomark/Legends"
+
+},
+
+{
+
+name:"Joodrudda",
+
+x:3921,
+
+y:2684,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Joodrudda"
 
 },
     
@@ -5554,6 +5590,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Oshetti_IV"
+
+},
+
+{
+
+name:"Oslumpex V",
+
+x:3888,
+
+y:2679,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Oslumpex_V/Legends"
 
 },
     
