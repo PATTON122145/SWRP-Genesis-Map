@@ -522,6 +522,24 @@ link:
 "https://starwars.fandom.com/wiki/Argazda/Legends"
 
 },
+
+{
+
+name:"Aris",
+
+x:2912,
+
+y:2615,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Aris/Legends"
+
+},
     
 {
 
@@ -682,6 +700,26 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ban-Satir_II"
+
+},
+
+{
+
+name:"Bar Neth",
+
+aka:"Bar-Neth",
+
+x:2855,
+
+y:2609,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bar_Neth"
 
 },
 
@@ -6228,6 +6266,24 @@ link:
 "https://starwars.fandom.com/wiki/Praya"
 
 },
+
+{
+
+name:"Prefsbelt IV",
+
+x:2827,
+
+y:2575,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Prefsbelt_IV/Legends"
+
+},
     
 {
 
@@ -6588,6 +6644,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ruusan/Legends"
+
+},
+
+{
+
+name:"Ryloon",
+
+x:2765,
+
+y:2614,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ryloon"
 
 },
 
