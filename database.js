@@ -2958,6 +2958,24 @@ link:
 "https://starwars.fandom.com/wiki/Farana/Legends"
 
 },
+
+{
+    
+name:"Fedje",
+
+x:3028,
+
+y:2537,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Fedje"
+
+},
     
 {
     
@@ -2992,6 +3010,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ferro"
+
+},
+
+{
+    
+name:"Fest",
+
+x:3031,
+
+y:2546,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Fest/Legends"
 
 },
     
@@ -8637,6 +8673,24 @@ link:
 "https://starwars.fandom.com/wiki/Vurdon_Ka/Legends"
 
 },
+
+{
+
+name:"Vykos",
+
+x:2946,
+
+y:2606,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vykos"
+
+},
     
 {
 
@@ -8797,6 +8851,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Yorgraxx"
+
+},
+
+{
+
+name:"Zeffliffl",
+
+x:3026,
+
+y:2587,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Zeffliffl"
 
 },
     
