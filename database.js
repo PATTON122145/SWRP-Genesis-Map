@@ -3415,6 +3415,24 @@ link:
 
 {
 
+name:"Gibbela",
+
+x:2975,
+
+y:2574,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gibbela"
+
+},
+
+{
+
 name:"Gigor",
 
 x:3734,
@@ -4180,6 +4198,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Imdaar/Legends"
+
+},
+
+{
+
+name:"Iridium",
+
+x:3005,
+
+y:2552,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Iridium"
 
 },
     
@@ -5821,6 +5857,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Namadii/Legends"
+
+},
+
+{
+
+name:"Nam'ta",
+
+x:3041,
+
+y:2603,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nam%27ta"
 
 },
     
@@ -8653,6 +8707,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vortex/Legends"
+
+},
+
+{
+
+name:"Vuchelle",
+
+x:2994,
+
+y:2528,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vuchelle"
 
 },
     
