@@ -1,5 +1,40 @@
 const systems = [
 
+{
+
+name:"Aar",
+
+x:3286,
+
+y:2612,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Aar"
+
+},
+
+{
+
+name:"Abafar",
+
+x:3294,
+
+y:2556,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Abafar/Legends"
+
+},
     
 {
 
@@ -70,6 +105,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Adumar/Legends"
+
+},
+
+{
+    
+name:"Aefao",
+
+x:3242,
+
+y:2518,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Aefao"
 
 },
     
@@ -1796,6 +1849,24 @@ link:
 
 {
 
+name:"Chrellis",
+
+x:3156,
+
+y:2537,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Chrellis"
+
+},
+
+{
+
 name:"Churruma",
 
 x:2778,
@@ -1955,6 +2026,58 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Corsin/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Corvis Minor System",
+
+    x:3251,
+
+    y:2620,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Corvis III",
+                    link:"https://starwars.fandom.com/wiki/Corvis_III"
+                },
+
+                {
+                    name:"Corvis IV",
+                    link:"https://starwars.fandom.com/wiki/Corvis_IV"
+                },
+
+                {
+                    name:"Corvis V",
+                    link:"https://starwars.fandom.com/wiki/Corvis_V",
+
+                    moons:[
+
+                        {
+                            name:"Distna",
+                            link:"https://starwars.fandom.com/wiki/Distna"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -3246,6 +3369,24 @@ link:
 "https://starwars.fandom.com/wiki/Gand/Legends"
 
 },
+
+{
+    
+name:"Gandolo IV",
+
+x:3124,
+
+y:2592,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gandolo_IV/Legends"
+
+},
     
 {
     
@@ -4043,9 +4184,9 @@ link:
 
     name:"Horuz System",
 
-    x:2910,
+    x:3016,
 
-    y:2545,
+    y:2608,
 
     description:"",
 
@@ -5423,6 +5564,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Mandalore/Legends"
+
+},
+
+{
+
+name:"Mantooine",
+
+x:2995,
+
+y:2602,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mantooine/Legends"
 
 },
     
@@ -7288,6 +7447,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Salient_II"
+
+},
+
+{
+
+name:"Salin",
+
+x:3265,
+
+y:2539,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Salin"
 
 },
 
