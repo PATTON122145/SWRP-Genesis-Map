@@ -3246,6 +3246,24 @@ link:
 
 {
     
+name:"Feswe Corridor",
+
+x:3468,
+
+y:2518,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Feswe_Corridor"
+
+},
+
+{
+    
 name:"Feswe Minor",
 
 x:3448,
@@ -5343,6 +5361,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Kwevron"
+
+},
+
+{
+
+name:"Ladarra",
+
+x:3498,
+
+y:2520,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ladarra"
 
 },
 
