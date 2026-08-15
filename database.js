@@ -3751,6 +3751,24 @@ link:
 "https://starwars.fandom.com/wiki/Gizer/Legends"
 
 },
+
+{
+
+name:"Glade",
+
+x:3553,
+
+y:2519,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Glade"
+
+},
     
 {
 
@@ -5233,6 +5251,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Klatooine/Legends"
+
+},
+
+{
+
+name:"Kli'aar",
+
+x:3521,
+
+y:2536,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kli'aar"
 
 },
     
@@ -8876,6 +8912,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Uviuy_Exen"
+
+},
+
+{
+
+name:"Vaal",
+
+x:3543,
+
+y:2505,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vaal/Legends"
 
 },
     
