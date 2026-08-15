@@ -3279,6 +3279,24 @@ link:
 "https://starwars.fandom.com/wiki/Feswe_Minor_system/Legends"
 
 },
+
+{
+    
+name:"Feswe Prime",
+
+x:3452,
+
+y:2521,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Feswe_Prime_system/Legends"
+
+},
     
 {
     
@@ -5823,6 +5841,24 @@ link:
 
 {
 
+name:"Marrovia",
+
+x:3510,
+
+y:2528,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Marrovia"
+
+},
+
+{
+
 name:"Maryo",
 
 x:3829,
@@ -8300,6 +8336,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Tepasi/Legends"
+
+},
+
+{
+
+name:"Tertiary Feswe",
+
+x:3445,
+
+y:2492,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tertiary_Feswe_system/Legends"
 
 },
 
