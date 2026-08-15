@@ -4344,6 +4344,24 @@ link:
 
 {
 
+name:"Hynah",
+
+x:3424,
+
+y:2540,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hynah"
+
+},
+
+{
+
 name:"Ibanjji",
 
 x:3298,
@@ -7863,6 +7881,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Sneeve/Legends"
+
+},
+
+{
+
+name:"Sorrus",
+
+x:3421,
+
+y:2530,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Sorrus"
 
 },
     
