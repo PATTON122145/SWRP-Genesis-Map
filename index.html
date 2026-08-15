@@ -417,6 +417,1194 @@
 
 }
     
+</style>
+
+
+
+
+<div id="galaxyContainer">
+
+
+<div id="searchContainer">
+
+    <button id="musicToggle">
+        ♪ Music OFF
+    </button>
+    
+    <button id="sfxToggle" class="enabled">
+    	🔊 SFX ON
+	</button>
+
+    <input
+        id="planetSearch"
+        type="text"
+        placeholder="Search galaxy...">
+
+    <div id="results"></div>
+
+</div>
+
+<!-- Hidden YouTube player -->
+<div id="youtubePlayer"></div>
+    
+<div id="map"></div>
+
+<div id="coordinateHUD">
+    X: 0 | Y: 0
+</div>
+
+
+</div>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="database.js"></script>
+
+
+<script>
+
+
+// =====================================
+// GALAXY IMAGE SETTINGS
+// =====================================
+
+
+const imageWidth = 6000;
+
+const imageHeight = 3375;
+
+
+
+const bounds = [
+
+    [0,0],
+
+    [imageHeight,imageWidth]
+
+];
+
+
+
+
+// =====================================
+// CREATE MAP
+// =====================================
+
+
+const map = L.map("map", {
+
+    crs:L.CRS.Simple,
+
+    minZoom:-2,
+
+    maxZoom:3,
+
+    zoomSnap:0.25,
+
+    maxBounds:bounds,
+
+    maxBoundsViscosity:1
+
+});
+
+
+
+
+
+// =====================================
+// LOAD MAP IMAGE
+// =====================================
+
+
+L.imageOverlay(
+
+"genesis-map-v0-0-1.png",
+
+bounds
+
+).addTo(map);
+
+
+
+map.fitBounds(bounds);
+
+
+
+// =====================================
+// COORDINATE TRACKER
+// =====================================
+
+const coordinateHUD =
+document.getElementById("coordinateHUD");
+
+
+map.on("mousemove", function(e){
+
+
+    let x = Math.round(e.latlng.lng);
+
+    let y = Math.round(e.latlng.lat);
+
+
+    coordinateHUD.innerHTML =
+    `X: ${x} | Y: ${y}`;
+
+
+});
+
+
+
+
+
+// =====================================
+// CUSTOM MARKER
+// =====================================
+
+
+const poiIcon = L.divIcon({
+
+    className:"",
+
+    html:'<div class="poi"></div>',
+
+    iconSize:[18,18],
+
+    iconAnchor:[9,9]
+
+});
+
+// =====================================
+// BUILD WORLD LIST
+// =====================================
+
+function buildWorldList(system){
+
+
+    // Grouped systems (Hapes, etc.)
+
+    if(system.worldGroups){
+
+
+return `
+
+<div style="
+    margin-top:8px;
+    margin-bottom:4px;
+">
+    <strong>Worlds:</strong>
+</div>
+
+
+${system.worldGroups.map(group => `
+
+<div style="
+    margin-top:8px;
+    font-weight:bold;
+">
+
+${group.label}
+
+</div>
+
+
+<ul style="
+    margin:2px 0 6px 18px;
+    padding:0;
+">
+
+${group.worlds.map(world => `
+
+<li>
+
+<a href="${world.link}" target="_blank">
+
+${world.name}
+
+</a>
+
+
+${world.moons ? `
+
+<ul style="
+    margin:2px 0 2px 18px;
+    padding:0;
+">
+
+
+${world.moons.map(moon => `
+
+<li>
+
+<a href="${moon.link}" target="_blank">
+
+${moon.name}
+
+</a>
+
+</li>
+
+
+`).join("")}
+
+
+</ul>
+
+` : ""}
+
+
+</li>
+
+
+`).join("")}
+
+</ul>
+
+
+`).join("")}
+
+
+${system.link ? `
+
+<a href="${system.link}" target="_blank">
+View Wookieepedia
+</a>
+
+` : ""}
+
+`;
+
+    }
+
+
+
+    // Normal systems
+
+    if(system.worlds){
+
+
+        return `
+
+        <div style="
+            margin-top:8px;
+            margin-bottom:4px;
+        ">
+            <strong>Worlds:</strong>
+        </div>
+
+
+        <ul style="
+            margin:2px 0 6px 18px;
+            padding:0;
+        ">
+
+
+        ${system.worlds.map(world => `
+
+            <li>
+
+                <a href="${world.link}" target="_blank">
+
+                    ${world.name}
+
+                </a>
+
+            </li>
+
+
+        `).join("")}
+
+
+        </ul>
+
+        `;
+
+    }
+
+
+
+    // Normal planets
+
+    return `
+
+    <a href="${system.link}" target="_blank">
+
+        View Wookieepedia
+
+    </a>
+
+    `;
+
+
+}
+
+// =====================================
+// CREATE SYSTEM MARKERS
+// =====================================
+
+
+systems.forEach(system => {
+
+
+system.marker = L.marker(
+
+    [system.y,system.x],
+
+    {icon:poiIcon}
+
+)
+
+.addTo(map)
+
+.on("click",function(){
+
+    if(sfxEnabled){
+
+        planetClickSFX.pause();
+
+        planetClickSFX.currentTime = 0;
+
+        planetClickSFX.play();
+
+    }
+
+})
+
+.bindPopup(`
+
+<h3 style="margin-bottom:2px;">
+    ${system.name}
+</h3>
+
+${system.aka ? `
+<div style="
+    font-size:12px;
+    color:#aaa;
+    margin-bottom:10px;
+    font-style:italic;
+">
+    aka ${system.aka}
+</div>
+` : ""}
+
+<p><strong>Affiliation:</strong> ${system.affiliation || "Neutral"}</p>
+
+${system.description ? `<p>${system.description}</p>` : ""}
+
+${buildWorldList(system)}
+
+`)
+
+
+
+.bindTooltip(
+
+    system.name,
+
+    {
+
+    permanent:true,
+
+    direction:"right",
+
+    offset:[10,0],
+
+    className:"planetLabel",
+
+    opacity:0
+
+    }
+
+);
+
+
+
+});
+
+/*
+// =====================================
+// SHOW PLANET NAMES ON ZOOM
+// =====================================
+
+
+function updatePlanetLabels(){
+
+
+let zoom = map.getZoom();
+
+
+
+systems.forEach(system => {
+
+
+    if(system.marker._tooltip){
+
+
+        if(zoom >= -1){
+
+            system.marker._tooltip.options.opacity = 1;
+
+            system.marker.openTooltip();
+
+
+        } else {
+
+
+            system.marker._tooltip.options.opacity = 0;
+
+            system.marker.closeTooltip();
+
+
+        }
+
+
+    }
+
+
+});
+
+
+}
+
+
+
+map.on("zoomend", updatePlanetLabels);
+
+
+// Run once when map loads
+
+updatePlanetLabels();
+*/
+// =====================================
+// GET SEARCHABLE WORLD NAMES
+// =====================================
+
+function getWorldNames(system){
+
+    let names = [];
+
+
+    // Grouped systems (Hapes, Japrael, etc.)
+
+    if(system.worldGroups){
+
+        system.worldGroups.forEach(group => {
+
+            group.worlds.forEach(world => {
+
+                names.push(world.name);
+
+
+                // Include moons
+
+                if(world.moons){
+
+                    world.moons.forEach(moon => {
+
+                        names.push(moon.name);
+
+                    });
+
+                }
+
+            });
+
+        });
+
+    }
+
+
+    // Normal systems
+
+    if(system.worlds){
+
+        system.worlds.forEach(world => {
+
+            names.push(world.name);
+
+        });
+
+    }
+
+
+    return names;
+
+}
+
+// =====================================
+// SEARCH SYSTEM
+// =====================================
+
+
+const searchBox =
+document.getElementById("planetSearch");
+
+
+const results =
+document.getElementById("results");
+
+
+
+
+
+searchBox.addEventListener("input",function(){
+
+
+let query =
+this.value.toLowerCase();
+
+
+
+results.innerHTML="";
+
+
+
+if(query.length === 0){
+
+    results.style.display="none";
+
+    return;
+
+}
+
+
+
+
+
+let matches = systems.filter(system =>
+
+    system.name.toLowerCase().includes(query)
+
+    ||
+
+    (system.aka &&
+     system.aka.toLowerCase().includes(query))
+
+    ||
+
+    getWorldNames(system).some(name =>
+
+        name.toLowerCase().includes(query)
+
+    )
+
+);
+
+
+
+
+
+if(matches.length === 0){
+
+    results.style.display="none";
+
+    return;
+
+}
+
+
+
+
+
+matches.forEach(system=>{
+
+
+let option =
+document.createElement("div");
+
+
+option.className="result";
+
+
+option.textContent =
+system.aka
+    ? `${system.name} (${system.aka})`
+    : system.name;
+
+
+
+option.onclick=function(){
+
+
+
+map.flyTo(
+
+    [system.y,system.x],
+
+    1,
+
+    {
+
+    duration:1.5
+
+    }
+
+);
+
+
+
+system.marker.openPopup();
+
+
+
+searchBox.value =
+system.name;
+
+
+results.style.display="none";
+
+
+};
+
+
+
+results.appendChild(option);
+
+
+
+});
+
+
+
+results.style.display="block";
+
+
+
+});
+
+
+
+
+
+
+// Hide results when clicking map
+
+map.on("click",()=>{
+
+results.style.display="none";
+
+});
+
+// =====================================
+// MAP MUSIC
+// =====================================
+
+let player;
+
+let musicPlaying = false;
+
+
+// Put ONLY the YouTube video ID here.
+const musicVideo = "47EogWSL2RM";
+
+
+function onYouTubeIframeAPIReady(){
+
+    player = new YT.Player("youtubePlayer",{
+
+        height:"0",
+
+        width:"0",
+
+        videoId:musicVideo,
+
+        playerVars:{
+            autoplay:0,
+            controls:0,
+            disablekb:1,
+            modestbranding:1,
+            rel:0,
+            loop:1,
+            playlist:musicVideo
+        },
+
+        events:{
+
+            onReady:function(){
+
+                player.pauseVideo();
+
+            }
+
+        }
+
+    });
+
+}
+
+
+
+const musicButton =
+document.getElementById("musicToggle");
+
+
+
+musicButton.addEventListener("click",function(){
+
+
+    if(!player) return;
+
+
+    if(musicPlaying){
+
+        player.pauseVideo();
+
+        musicPlaying=false;
+
+        musicButton.classList.remove("playing");
+
+        musicButton.textContent="♪ Music OFF";
+
+    }
+
+    else{
+
+        player.playVideo();
+
+        musicPlaying=true;
+
+        musicButton.classList.add("playing");
+
+        musicButton.textContent="♪ Music ON";
+
+    }
+
+
+});
+    
+// =====================================
+// PLANET CLICK SOUND
+// =====================================
+
+const planetClickSFX = new Audio(
+    "https://files.catbox.moe/a5nm4r.wav"
+);
+
+planetClickSFX.preload = "auto";
+
+let sfxEnabled = true;
+    
+// =====================================
+// SFX TOGGLE
+// =====================================
+
+const sfxButton =
+document.getElementById("sfxToggle");
+
+
+sfxButton.addEventListener("click",function(){
+
+    sfxEnabled = !sfxEnabled;
+
+    if(sfxEnabled){
+
+        sfxButton.textContent =
+        "🔊 SFX ON";
+
+        sfxButton.classList.remove("disabled");
+
+    }
+
+    else{
+
+        sfxButton.textContent =
+        "🔇 SFX OFF";
+
+        sfxButton.classList.add("disabled");
+
+    }
+
+});
+
+</script>
+
+</body>
+
+</html>
+#map {
+
+    width:100%;
+
+    height:100%;
+
+    background:#000;
+
+}
+
+
+
+
+/* =====================================
+   SEARCH HUD
+===================================== */
+
+
+#searchContainer {
+
+    position:absolute;
+
+    top:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    z-index:999999;
+
+}
+
+/* =====================================
+   COORDINATE HUD
+===================================== */
+
+#coordinateHUD {
+
+    position:absolute;
+
+    bottom:35px;
+
+    right:35px;
+
+    z-index:999999;
+
+    padding:10px 15px;
+
+    background:rgba(0,0,0,.8);
+
+    color:#00c3ff;
+
+    border:1px solid #00c3ff;
+
+    font-family:monospace;
+
+    font-size:14px;
+
+    box-shadow:
+
+        0 0 10px rgba(0,195,255,.4);
+
+}
+
+#planetSearch {
+
+    width:320px;
+
+    padding:12px;
+
+    background:#111;
+
+    color:white;
+
+    border:1px solid #00c3ff;
+
+    outline:none;
+
+    font-size:16px;
+
+    box-shadow:
+
+        0 0 10px rgba(0,195,255,.4);
+
+}
+
+/* =====================================
+   MUSIC BUTTON
+===================================== */
+
+#searchContainer{
+
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+
+}
+
+#musicToggle{
+
+    padding:12px 18px;
+
+    background:#111;
+
+    color:#888;
+
+    border:1px solid #444;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.25s;
+
+    white-space:nowrap;
+
+}
+
+#musicToggle:hover{
+
+    border-color:#00c3ff;
+
+    color:white;
+
+}
+
+#musicToggle.playing{
+
+    color:#00c3ff;
+
+    border-color:#00c3ff;
+
+    box-shadow:0 0 12px rgba(0,195,255,.45);
+
+}
+    
+/* =====================================
+   SFX BUTTON
+===================================== */
+
+#sfxToggle{
+
+    padding:12px 18px;
+
+    background:#111;
+
+    color:#888;
+
+    border:1px solid #444;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.25s;
+
+    white-space:nowrap;
+
+}
+
+#sfxToggle:hover{
+
+    border-color:#00c3ff;
+	
+    color:white;
+
+}
+
+#sfxToggle.disabled{
+
+    color:#888;
+
+    border-color:#444;
+
+    box-shadow:none;
+
+}
+
+#planetSearch::placeholder {
+
+    color:#888;
+
+}
+
+
+
+/* Search Results */
+
+#results {
+
+    display:none;
+
+    width:320px;
+
+    background:#111;
+
+    border:1px solid #00c3ff;
+
+}
+
+
+
+.result {
+
+    padding:10px;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+
+
+.result:hover {
+
+    background:#003344;
+
+}
+
+
+
+/* =====================================
+   POPUPS
+===================================== */
+
+
+.leaflet-popup-content-wrapper {
+
+    background:#111;
+
+    color:white;
+
+    border:1px solid #00c3ff;
+
+}
+
+
+
+.leaflet-popup-tip {
+
+    background:#111;
+
+}
+
+.leaflet-popup-content {
+
+    max-height:350px;
+
+    overflow-y:auto;
+
+}
+    
+/* =====================================
+   POPUP SCROLLBAR
+===================================== */
+
+.leaflet-popup-content::-webkit-scrollbar {
+
+    width:4px;
+
+}
+
+
+.leaflet-popup-content::-webkit-scrollbar-track {
+
+    background:#050505;
+
+    border-radius:6px;
+
+}
+
+
+.leaflet-popup-content::-webkit-scrollbar-thumb {
+
+    background:#00c3ff;
+
+    border-radius:6px;
+
+    border:1px solid #111;
+
+}
+
+
+.leaflet-popup-content::-webkit-scrollbar-thumb:hover {
+
+    background:#66ddff;
+
+}
+
+
+/* Firefox */
+
+.leaflet-popup-content {
+
+    scrollbar-width:thin;
+
+    scrollbar-color:#00c3ff #050505;
+
+}
+
+/* =====================================
+   SYSTEM MARKER
+===================================== */
+
+
+.poi {
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#00c3ff;
+
+    border:1px solid white;
+/*
+    box-shadow:
+
+        0 0 8px #00c3ff,
+
+        0 0 20px #00c3ff;
+*/
+    
+}
+
+    /* =====================================
+   PLANET NAME LABELS
+===================================== */
+
+.planetLabel {
+
+    background:rgba(0,0,0,.75);
+
+    color:#00c3ff;
+
+    border:1px solid #00c3ff;
+
+    padding:4px 8px;
+
+    font-family:monospace;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    white-space:nowrap;
+
+    box-shadow:
+        0 0 8px rgba(0,195,255,.5);
+
+}
+
+
+
+.leaflet-tooltip.planetLabel {
+
+    background:rgba(0,0,0,.75);
+
+}
+
+
+
+.leaflet-tooltip.planetLabel::before {
+
+    display:none;
+
+}
+
+#map {
+
+    cursor:url("https://i.ibb.co/6RTJPXpn/map-cursor.png") 16 16, crosshair;
+
+}
+    
+.poi:hover {
+
+    cursor:url("https://i.ibb.co/MkQbwLmH/map-cursor2.png") 16 16, pointer;
+
+}
+    
 
 /* =====================================
    GALACTIC GRID
