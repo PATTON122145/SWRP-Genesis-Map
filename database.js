@@ -1045,6 +1045,24 @@ link:
 
 {
 
+name:"Betshish",
+
+x:3530,
+
+y:2548,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Betshish"
+
+},
+
+{
+
 name:"Bettok",
 
 x:2785,
