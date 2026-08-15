@@ -3243,6 +3243,24 @@ link:
 "https://starwars.fandom.com/wiki/Fest/Legends"
 
 },
+
+{
+    
+name:"Feswe Minor",
+
+x:3448,
+
+y:2511,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Feswe_Minor_system/Legends"
+
+},
     
 {
     
@@ -5253,6 +5271,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Korriz"
+
+},
+
+{
+
+name:"Krylon",
+
+x:3482,
+
+y:2507,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Krylon"
 
 },
     
@@ -8027,6 +8063,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Taanab/Legends"
+
+},
+
+{
+
+name:"Tandun III",
+
+x:3476,
+
+y:2584,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tandun_III"
 
 },
     
