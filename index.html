@@ -341,6 +341,10 @@
 ===================================== */
 
 
+/* =====================================
+   SYSTEM MARKERS
+===================================== */
+
 .poi {
 
     width:10px;
@@ -352,14 +356,37 @@
     background:#00c3ff;
 
     border:1px solid white;
-/*
-    box-shadow:
 
-        0 0 8px #00c3ff,
+}
 
-        0 0 20px #00c3ff;
-*/
-    
+/* High-priority systems */
+
+.poi-high {
+
+    width:14px;
+
+    height:14px;
+
+}
+
+/* Medium-priority systems */
+
+.poi-medium {
+
+    width:10px;
+
+    height:10px;
+
+}
+
+/* Low-priority systems */
+
+.poi-low {
+
+    width:7px;
+
+    height:7px;
+
 }
 
     /* =====================================
@@ -560,21 +587,83 @@ map.on("mousemove", function(e){
 
 
 // =====================================
-// CUSTOM MARKER
+// PRIORITY SETTINGS
 // =====================================
 
+const PRIORITY_SETTINGS = {
 
-const poiIcon = L.divIcon({
+    high: {
+        className: "poi-high",
+        iconSize: [22,22],
+        iconAnchor: [11,11],
+        labelMinZoom: -Infinity
+    },
 
-    className:"",
+    medium: {
+        className: "poi-medium",
+        iconSize: [18,18],
+        iconAnchor: [9,9],
+        labelMinZoom: 0
+    },
 
-    html:'<div class="poi"></div>',
+    low: {
+        className: "poi-low",
+        iconSize: [15,15],
+        iconAnchor: [7.5,7.5],
+        labelMinZoom: 1
+    }
 
-    iconSize:[18,18],
+};
 
-    iconAnchor:[9,9]
 
-});
+// =====================================
+// GET SYSTEM PRIORITY
+// =====================================
+
+function getSystemPriority(system){
+
+    const priority = system.priority;
+
+    if(
+        priority === "high" ||
+        priority === "medium" ||
+        priority === "low"
+    ){
+
+        return priority;
+
+    }
+
+    // No priority = low
+
+    return "low";
+
+}
+
+// =====================================
+// CREATE PRIORITY-BASED ICON
+// =====================================
+
+function createPoiIcon(priority){
+
+    const settings =
+        PRIORITY_SETTINGS[priority];
+
+    return L.divIcon({
+
+        className:"",
+
+        html:`
+            <div class="poi ${settings.className}"></div>
+        `,
+
+        iconSize:settings.iconSize,
+
+        iconAnchor:settings.iconAnchor
+
+    });
+
+}
 
 // =====================================
 // BUILD WORLD LIST
@@ -744,84 +833,166 @@ View Wookieepedia
 // CREATE SYSTEM MARKERS
 // =====================================
 
-
 systems.forEach(system => {
 
+    // Determine priority.
+    // Missing/invalid priority automatically becomes low.
 
-system.marker = L.marker(
+    const priority =
+        getSystemPriority(system);
 
-    [system.y,system.x],
-
-    {icon:poiIcon}
-
-)
-
-.addTo(map)
-
-.on("click",function(){
-
-    if(sfxEnabled){
-
-        planetClickSFX.pause();
-
-        planetClickSFX.currentTime = 0;
-
-        planetClickSFX.play();
-
-    }
-
-})
-
-.bindPopup(`
-
-<h3 style="margin-bottom:2px;">
-    ${system.name}
-</h3>
-
-${system.aka ? `
-<div style="
-    font-size:12px;
-    color:#aaa;
-    margin-bottom:10px;
-    font-style:italic;
-">
-    aka ${system.aka}
-</div>
-` : ""}
-
-<p><strong>Affiliation:</strong> ${system.affiliation || "Neutral"}</p>
-
-${system.description ? `<p>${system.description}</p>` : ""}
-
-${buildWorldList(system)}
-
-`)
+    const settings =
+        PRIORITY_SETTINGS[priority];
 
 
-
-.bindTooltip(
-
-    system.name,
-
-    {
-
-    permanent:true,
-
-    direction:"right",
-
-    offset:[10,0],
-
-    className:"planetLabel",
-
-    opacity:0
-
-    }
-
-);
+    system.priority = priority;
 
 
+    system.marker = L.marker(
+
+        [system.y,system.x],
+
+        {
+            icon:createPoiIcon(priority)
+        }
+
+    )
+
+    .addTo(map)
+
+    .on("click",function(){
+
+        if(sfxEnabled){
+
+            planetClickSFX.pause();
+
+            planetClickSFX.currentTime = 0;
+
+            planetClickSFX.play();
+
+        }
+
+    })
+
+    .bindPopup(`
+
+        <h3 style="margin-bottom:2px;">
+            ${system.name}
+        </h3>
+
+        ${system.aka ? `
+        <div style="
+            font-size:12px;
+            color:#aaa;
+            margin-bottom:10px;
+            font-style:italic;
+        ">
+            aka ${system.aka}
+        </div>
+        ` : ""}
+
+        <p>
+            <strong>Affiliation:</strong>
+            ${system.affiliation || "Neutral"}
+        </p>
+
+        ${system.description
+            ? `<p>${system.description}</p>`
+            : ""
+        }
+
+        ${buildWorldList(system)}
+
+    `)
+
+    .bindTooltip(
+
+        system.name,
+
+        {
+
+            permanent:true,
+
+            direction:"right",
+
+            offset:[10,0],
+
+            className:"planetLabel",
+
+            opacity:0
+
+        }
+
+    );
 
 });
+
+
+// =====================================
+// UPDATE PLANET LABELS
+// =====================================
+
+function updatePlanetLabels(){
+
+    const zoom = map.getZoom();
+
+
+    systems.forEach(system => {
+
+        if(!system.marker || !system.marker._tooltip){
+
+            return;
+
+        }
+
+
+        const priority =
+            getSystemPriority(system);
+
+        const settings =
+            PRIORITY_SETTINGS[priority];
+
+
+        // High priority = ALWAYS visible
+
+        if(priority === "high"){
+
+            system.marker.openTooltip();
+
+            return;
+
+        }
+
+
+        // Medium / Low = controlled by zoom
+
+        if(zoom >= settings.labelMinZoom){
+
+            system.marker.openTooltip();
+
+        }
+
+        else{
+
+            system.marker.closeTooltip();
+
+        }
+
+    });
+
+}
+
+
+// =====================================
+// UPDATE LABELS WHEN ZOOM CHANGES
+// =====================================
+
+map.on("zoomend", updatePlanetLabels);
+
+
+// Run once after markers are created
+
+updatePlanetLabels();
 
 /*
 // =====================================
