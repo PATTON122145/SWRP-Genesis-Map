@@ -3162,6 +3162,53 @@ link:
 },
 
 {
+    type:"system",
+
+    name:"Feriae System",
+
+    x:3414,
+
+    y:2512,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Korfin",
+                    link:"https://starwars.fandom.com/wiki/Korfin"
+                },
+
+                {
+                    name:"Feriae Junction",
+                    link:"https://starwars.fandom.com/wiki/Feriae_Junction"
+                },
+
+                {
+                    name:"Moraices",
+                    link:"https://starwars.fandom.com/wiki/Moraices"
+                },
+
+                {
+                    name:"Ios",
+                    link:"https://starwars.fandom.com/wiki/Ios"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
+
+{
     
 name:"Ferro",
 
