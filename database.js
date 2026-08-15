@@ -6056,6 +6056,24 @@ link:
 "https://starwars.fandom.com/wiki/Mirial"
 
 },
+
+{
+
+name:"Mogoshyn",
+
+x:3526,
+
+y:2562,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mogoshyn"
+
+},
     
 {
 
