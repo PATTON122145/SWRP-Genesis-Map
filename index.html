@@ -1524,64 +1524,50 @@ map.on("click",function() {
 });
 
 
-/* =====================================
-   MAP MUSIC
-===================================== */
+// =====================================
+// MAP MUSIC
+// =====================================
 
-let player;
+const mapMusic = new Audio(
+    "https://files.catbox.moe/o0epj8.wav"
+);
+
+mapMusic.preload = "auto";
+mapMusic.loop = true;
 
 let musicPlaying = false;
 
+const musicButton =
+document.getElementById("musicToggle");
 
-const musicVideo =
-    "47EogWSL2RM";
 
+musicButton.addEventListener("click",function(){
 
-function onYouTubeIframeAPIReady() {
+    if(musicPlaying){
 
-    player =
-        new YT.Player(
-            "youtubePlayer",
-            {
+        mapMusic.pause();
 
-                height:"0",
+        musicPlaying=false;
 
-                width:"0",
+        musicButton.classList.remove("playing");
 
-                videoId:musicVideo,
+        musicButton.textContent="♪ Music OFF";
 
-                playerVars:{
+    }
 
-                    autoplay:0,
+    else{
 
-                    controls:0,
+        mapMusic.play();
 
-                    disablekb:1,
+        musicPlaying=true;
 
-                    modestbranding:1,
+        musicButton.classList.add("playing");
 
-                    rel:0,
+        musicButton.textContent="♪ Music ON";
 
-                    loop:1,
+    }
 
-                    playlist:musicVideo
-
-                },
-
-                events:{
-
-                    onReady:function() {
-
-                        player.pauseVideo();
-
-                    }
-
-                }
-
-            }
-        );
-
-}
+});
 
 
 /* =====================================
@@ -6089,93 +6075,6 @@ results.style.display="block";
 map.on("click",()=>{
 
 results.style.display="none";
-
-});
-
-// =====================================
-// MAP MUSIC
-// =====================================
-
-let player;
-
-let musicPlaying = false;
-
-
-// Put ONLY the YouTube video ID here.
-const musicVideo = "47EogWSL2RM";
-
-
-function onYouTubeIframeAPIReady(){
-
-    player = new YT.Player("youtubePlayer",{
-
-        height:"0",
-
-        width:"0",
-
-        videoId:musicVideo,
-
-        playerVars:{
-            autoplay:0,
-            controls:0,
-            disablekb:1,
-            modestbranding:1,
-            rel:0,
-            loop:1,
-            playlist:musicVideo
-        },
-
-        events:{
-
-            onReady:function(){
-
-                player.pauseVideo();
-
-            }
-
-        }
-
-    });
-
-}
-
-
-
-const musicButton =
-document.getElementById("musicToggle");
-
-
-
-musicButton.addEventListener("click",function(){
-
-
-    if(!player) return;
-
-
-    if(musicPlaying){
-
-        player.pauseVideo();
-
-        musicPlaying=false;
-
-        musicButton.classList.remove("playing");
-
-        musicButton.textContent="♪ Music OFF";
-
-    }
-
-    else{
-
-        player.playVideo();
-
-        musicPlaying=true;
-
-        musicButton.classList.add("playing");
-
-        musicButton.textContent="♪ Music ON";
-
-    }
-
 
 });
     
