@@ -859,6 +859,8 @@ link:
 
 name:"Bastion",
 
+priority:"high",
+
 x:2830,
 
 y:2815,
@@ -2085,6 +2087,8 @@ link:
 
 name:"Coruscant",
 
+priority:"high",
+
 x:2948,
 
 y:2010,
@@ -2246,6 +2250,8 @@ link:
 {
     
 name:"Dathomir",
+
+priority:"medium",
 
 x:3330,
 
@@ -5552,6 +5558,8 @@ link:
 {
 
 name:"Mandalore",
+
+priority:"high",
 
 x:3389,
 
