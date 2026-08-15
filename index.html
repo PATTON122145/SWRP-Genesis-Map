@@ -417,6 +417,37 @@
 
 }
     
+
+/* =====================================
+   GALACTIC GRID
+===================================== */
+
+.galaxyGridCell {
+    background: transparent;
+    border: 1px solid rgba(0,195,255,.22);
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+.gridCoordinateLabel {
+    background: transparent;
+    border: none;
+    color: rgba(0,195,255,.55);
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:
+        0 0 5px #000,
+        0 0 8px #000;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.leaflet-marker-icon.gridCoordinateLabel {
+    margin: 0 !important;
+}
+
 </style>
 
 
@@ -450,7 +481,7 @@
 <div id="map"></div>
 
 <div id="coordinateHUD">
-    X: 0 | Y: 0
+    X: 0 | Y: 0 | GRID: --
 </div>
 
 
@@ -560,8 +591,171 @@ map.on("mousemove", function(e){
 
 
 // =====================================
-// CUSTOM MARKER
+// GALACTIC GRID
 // =====================================
+//
+// The map uses a 6000 x 3375 coordinate space.
+// Each grid cell is 250 x 250 map units.
+// Columns are letters (A-X), rows are numbers (1-14).
+//
+// Grid lines are visible at all zoom levels, becoming
+// more prominent as the user zooms in.
+// Coordinate labels appear in the center of each cell
+// once the map is sufficiently zoomed in.
+//
+
+const GRID_SIZE = 250;
+const GRID_MIN_ZOOM_FOR_LABELS = 0;
+
+const gridLayer = L.layerGroup().addTo(map);
+const gridLabelsLayer = L.layerGroup().addTo(map);
+
+const gridColumns = Math.ceil(imageWidth / GRID_SIZE);
+const gridRows = Math.ceil(imageHeight / GRID_SIZE);
+
+function columnLetter(index) {
+    // Supports A-Z, AA-AZ, etc. if the map is ever expanded.
+    let result = "";
+    let n = index + 1;
+
+    while (n > 0) {
+        const remainder = (n - 1) % 26;
+        result = String.fromCharCode(65 + remainder) + result;
+        n = Math.floor((n - 1) / 26);
+    }
+
+    return result;
+}
+
+function getGridCoordinate(x, y) {
+    const column = Math.floor(x / GRID_SIZE);
+    const row = Math.floor(y / GRID_SIZE);
+
+    if (
+        column < 0 ||
+        column >= gridColumns ||
+        row < 0 ||
+        row >= gridRows
+    ) {
+        return "--";
+    }
+
+    return `${columnLetter(column)}${row + 1}`;
+}
+
+function buildGalaxyGrid() {
+
+    for (let row = 0; row < gridRows; row++) {
+
+        const y1 = row * GRID_SIZE;
+        const y2 = Math.min((row + 1) * GRID_SIZE, imageHeight);
+
+        for (let column = 0; column < gridColumns; column++) {
+
+            const x1 = column * GRID_SIZE;
+            const x2 = Math.min((column + 1) * GRID_SIZE, imageWidth);
+
+            const coordinate =
+                `${columnLetter(column)}${row + 1}`;
+
+            // Grid cell / border
+            L.rectangle(
+                [[y1, x1], [y2, x2]],
+                {
+                    className: "galaxyGridCell",
+                    stroke: true,
+                    color: "#00c3ff",
+                    weight: 1,
+                    opacity: 0.22,
+                    fill: false,
+                    interactive: false
+                }
+            ).addTo(gridLayer);
+
+            // Coordinate label at the center of the cell
+            const centerY = (y1 + y2) / 2;
+            const centerX = (x1 + x2) / 2;
+
+            L.marker(
+                [centerY, centerX],
+                {
+                    icon: L.divIcon({
+                        className: "gridCoordinateLabel",
+                        html: coordinate,
+                        iconSize: [60, 20],
+                        iconAnchor: [30, 10]
+                    }),
+                    interactive: false,
+                    keyboard: false
+                }
+            ).addTo(gridLabelsLayer);
+        }
+    }
+}
+
+function updateGalaxyGrid() {
+
+    const zoom = map.getZoom();
+
+    // Grid becomes progressively stronger as you zoom in.
+    let gridOpacity = 0.12;
+
+    if (zoom >= -1) {
+        gridOpacity = 0.18;
+    }
+
+    if (zoom >= 0) {
+        gridOpacity = 0.25;
+    }
+
+    if (zoom >= 1) {
+        gridOpacity = 0.32;
+    }
+
+    if (zoom >= 2) {
+        gridOpacity = 0.40;
+    }
+
+    gridLayer.eachLayer(layer => {
+        layer.setStyle({
+            opacity: gridOpacity
+        });
+    });
+
+    // Coordinate labels only appear once the grid is sufficiently
+    // zoomed in to be useful rather than visual clutter.
+    if (zoom >= GRID_MIN_ZOOM_FOR_LABELS) {
+        if (!map.hasLayer(gridLabelsLayer)) {
+            gridLabelsLayer.addTo(map);
+        }
+    } else {
+        if (map.hasLayer(gridLabelsLayer)) {
+            map.removeLayer(gridLabelsLayer);
+        }
+    }
+}
+
+buildGalaxyGrid();
+updateGalaxyGrid();
+
+map.on("zoomend", updateGalaxyGrid);
+
+// Update both the raw X/Y coordinates and the galactic grid coordinate.
+map.on("mousemove", function(e){
+
+    const x = Math.round(e.latlng.lng);
+    const y = Math.round(e.latlng.lat);
+    const gridCoordinate = getGridCoordinate(x, y);
+
+    coordinateHUD.innerHTML =
+        `X: ${x} | Y: ${y} | GRID: ${gridCoordinate}`;
+
+});
+
+
+// =====================================
+// CUSTOM MARKER
+====================================
 
 
 const poiIcon = L.divIcon({
