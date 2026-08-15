@@ -891,7 +891,7 @@ systems.forEach(system => {
 
             className:"planetLabel",
 
-            opacity:0
+            opacity:1
 
         }
 
@@ -908,15 +908,11 @@ function updatePlanetLabels(){
 
     const zoom = map.getZoom();
 
-
     systems.forEach(system => {
 
         if(!system.marker || !system.marker._tooltip){
-
             return;
-
         }
-
 
         const priority =
             getSystemPriority(system);
@@ -925,7 +921,10 @@ function updatePlanetLabels(){
             PRIORITY_SETTINGS[priority];
 
 
-        // High priority = ALWAYS visible
+        // =====================================
+        // HIGH PRIORITY
+        // Always visible
+        // =====================================
 
         if(priority === "high"){
 
@@ -936,7 +935,10 @@ function updatePlanetLabels(){
         }
 
 
-        // Medium / Low = controlled by zoom
+        // =====================================
+        // MEDIUM / LOW PRIORITY
+        // Show based on zoom
+        // =====================================
 
         if(zoom >= settings.labelMinZoom){
 
