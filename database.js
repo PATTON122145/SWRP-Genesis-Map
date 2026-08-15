@@ -8147,6 +8147,24 @@ link:
 "https://starwars.fandom.com/wiki/Thalassia/Legends"
 
 },
+
+{
+
+name:"Thesme",
+
+x:3386,
+
+y:2515,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Thesme"
+
+},
     
 {
 
