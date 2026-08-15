@@ -6077,6 +6077,93 @@ map.on("click",()=>{
 results.style.display="none";
 
 });
+
+// =====================================
+// MAP MUSIC
+// =====================================
+
+let player;
+
+let musicPlaying = false;
+
+
+// Put ONLY the YouTube video ID here.
+const musicVideo = "47EogWSL2RM";
+
+
+function onYouTubeIframeAPIReady(){
+
+    player = new YT.Player("youtubePlayer",{
+
+        height:"0",
+
+        width:"0",
+
+        videoId:musicVideo,
+
+        playerVars:{
+            autoplay:0,
+            controls:0,
+            disablekb:1,
+            modestbranding:1,
+            rel:0,
+            loop:1,
+            playlist:musicVideo
+        },
+
+        events:{
+
+            onReady:function(){
+
+                player.pauseVideo();
+
+            }
+
+        }
+
+    });
+
+}
+
+
+
+const musicButton =
+document.getElementById("musicToggle");
+
+
+
+musicButton.addEventListener("click",function(){
+
+
+    if(!player) return;
+
+
+    if(musicPlaying){
+
+        player.pauseVideo();
+
+        musicPlaying=false;
+
+        musicButton.classList.remove("playing");
+
+        musicButton.textContent="♪ Music OFF";
+
+    }
+
+    else{
+
+        player.playVideo();
+
+        musicPlaying=true;
+
+        musicButton.classList.add("playing");
+
+        musicButton.textContent="♪ Music ON";
+
+    }
+
+
+});
     
 // =====================================
 // PLANET CLICK SOUND
