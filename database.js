@@ -7713,6 +7713,24 @@ link:
 
 {
 
+name:"Simpla-12",
+
+x:3428,
+
+y:2556,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Simpla-12"
+
+}, 
+
+{
+
 name:"Sinsang",
 
 x:2971,
