@@ -370,9 +370,9 @@ link:
 
 name:"Altyr V",
 
-x:2969,
+x:3370,
 
-y:2032,
+y:2614,
 
 description:
 
