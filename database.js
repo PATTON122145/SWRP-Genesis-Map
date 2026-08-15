@@ -365,6 +365,24 @@ link:
 "https://starwars.fandom.com/wiki/Alsakan/Legends"
 
 },
+
+{
+
+name:"Altyr V",
+
+x:2969,
+
+y:2032,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Altyr_V"
+
+},
     
 {
 
@@ -1494,6 +1512,25 @@ link:
 "https://starwars.fandom.com/wiki/Caluula/Legends"
 
 },
+
+{
+
+name:"Camden",
+
+x:3386,
+
+y:2583,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Camden"
+
+},
+
     
 {
 
@@ -6161,7 +6198,7 @@ name:"Nez Peron",
 
 x:3365,
 
-y:2515,
+y:2525,
     
 description:
 
