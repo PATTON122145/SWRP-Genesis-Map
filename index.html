@@ -564,42 +564,70 @@ const coordinateHUD =
 ===================================== */
 
 /*
-    Map:
-    6000 x 3375
+    GRID CORNERS
+    --------------------------------
+    Top-left corner of A1:
+        X = 1565
+        Y = 3120
 
-    Grid:
-    250 x 250
+    Bottom-right corner of W23:
+        X = 4435
+        Y = 250
 
-    Columns:
-    A-X
+    The grid automatically divides
+    this rectangle into:
 
-    Rows:
-    1-14
+        23 columns
+        23 rows
+
+    Therefore:
+
+        A1 → W23
 */
 
-const GRID_SIZE = 130;
+const GRID_START_X = 1565;
+const GRID_START_Y = 3120;
+
+const GRID_END_X = 4435;
+const GRID_END_Y = 250;
+
+
+/* =====================================
+   GRID DIMENSIONS
+===================================== */
+
+const GRID_COLUMNS = 23;
+const GRID_ROWS = 23;
 
 const GRID_MIN_ZOOM_FOR_LABELS = 0;
 
 
+/* =====================================
+   CALCULATE CELL SIZE
+===================================== */
+
+const GRID_WIDTH =
+    GRID_END_X - GRID_START_X;
+
+const GRID_HEIGHT =
+    GRID_START_Y - GRID_END_Y;
+
+const GRID_SIZE_X =
+    GRID_WIDTH / GRID_COLUMNS;
+
+const GRID_SIZE_Y =
+    GRID_HEIGHT / GRID_ROWS;
+
+
+/* =====================================
+   GRID LAYERS
+===================================== */
+
 const gridLayer =
     L.layerGroup().addTo(map);
 
-
 const gridLabelsLayer =
     L.layerGroup().addTo(map);
-
-
-const gridColumns =
-    Math.ceil(
-        imageWidth / GRID_SIZE
-    );
-
-
-const gridRows =
-    Math.ceil(
-        imageHeight / GRID_SIZE
-    );
 
 
 /* =====================================
@@ -639,28 +667,51 @@ function columnLetter(index) {
 
 function getGridCoordinate(x, y) {
 
+    /* =================================
+       CHECK WHETHER POINT IS INSIDE GRID
+    ================================= */
+
+    if(
+        x < GRID_START_X ||
+        x > GRID_END_X ||
+        y > GRID_START_Y ||
+        y < GRID_END_Y
+    ) {
+
+        return "--";
+
+    }
+
+
+    /* =================================
+       CALCULATE COLUMN
+    ================================= */
+
     const column =
         Math.floor(
-            x / GRID_SIZE
+            (x - GRID_START_X) / GRID_SIZE_X
         );
 
+
+    /* =================================
+       CALCULATE ROW
+    ================================= */
 
     const row =
         Math.floor(
-            y / GRID_SIZE
+            (GRID_START_Y - y) / GRID_SIZE_Y
         );
 
 
+    /* =================================
+       SAFETY CHECK
+    ================================= */
+
     if(
-
         column < 0 ||
-
-        column >= gridColumns ||
-
+        column >= GRID_COLUMNS ||
         row < 0 ||
-
-        row >= gridRows
-
+        row >= GRID_ROWS
     ) {
 
         return "--";
@@ -681,36 +732,40 @@ function buildGalaxyGrid() {
 
     for(
         let row = 0;
-        row < gridRows;
+        row < GRID_ROWS;
         row++
     ) {
 
-        const y1 =
-            row * GRID_SIZE;
+        /* =================================
+           Y COORDINATES
+        ================================= */
 
+        const y1 =
+            GRID_START_Y -
+            (row * GRID_SIZE_Y);
 
         const y2 =
-            Math.min(
-                (row + 1) * GRID_SIZE,
-                imageHeight
-            );
+            GRID_START_Y -
+            ((row + 1) * GRID_SIZE_Y);
 
 
         for(
             let column = 0;
-            column < gridColumns;
+            column < GRID_COLUMNS;
             column++
         ) {
 
-            const x1 =
-                column * GRID_SIZE;
+            /* =================================
+               X COORDINATES
+            ================================= */
 
+            const x1 =
+                GRID_START_X +
+                (column * GRID_SIZE_X);
 
             const x2 =
-                Math.min(
-                    (column + 1) * GRID_SIZE,
-                    imageWidth
-                );
+                GRID_START_X +
+                ((column + 1) * GRID_SIZE_X);
 
 
             const coordinate =
@@ -724,8 +779,8 @@ function buildGalaxyGrid() {
             L.rectangle(
 
                 [
-                    [y1, x1],
-                    [y2, x2]
+                    [y2, x1],
+                    [y1, x2]
                 ],
 
                 {
@@ -757,7 +812,6 @@ function buildGalaxyGrid() {
 
             const centerY =
                 (y1 + y2) / 2;
-
 
             const centerX =
                 (x1 + x2) / 2;
