@@ -1476,6 +1476,24 @@ link:
 "https://starwars.fandom.com/wiki/Brodo_Asogi"
 
 },
+
+{
+
+name:"B'trilla",
+
+x:3622,
+
+y:2535,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/B'trilla"
+
+},
     
 {
 
@@ -6652,6 +6670,25 @@ link:
 "https://starwars.fandom.com/wiki/Ocsin_(planet)"
 
 },
+
+{
+
+name:"Odacer-Faustin",
+
+x:3646,
+
+y:2605,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Odacer-Faustin"
+
+},
+
 
 {
 
