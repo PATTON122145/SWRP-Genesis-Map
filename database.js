@@ -744,6 +744,24 @@ link:
 "https://starwars.fandom.com/wiki/Athiss/Legends"
 
 },
+
+{
+
+name:"Atorra",
+
+x:3607,
+
+y:2570,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Atorra"
+
+},
     
 {
 
@@ -2846,6 +2864,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ekibo"
+
+},
+
+{
+    
+name:"Elamposnia",
+
+x:3629,
+
+y:2571,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Elamposnia"
 
 },
     
