@@ -3160,6 +3160,24 @@ link:
 "https://starwars.fandom.com/wiki/Fedje"
 
 },
+
+{
+    
+name:"Feena",
+
+x:3625,
+
+y:2515,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Feena"
+
+},
     
 {
     
@@ -5836,6 +5854,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Mandalore/Legends"
+
+},
+
+{
+
+name:"Mannova",
+
+x:3571,
+
+y:2557,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mannova"
 
 },
 
@@ -8534,6 +8570,48 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Thisspias/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Thurra System",
+
+    x:3669,
+
+    y:2614,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Thule",
+                    link:"https://starwars.fandom.com/wiki/Thule/Legends",
+
+                    moons:[
+
+                        {
+                            name:"Sivvi",
+                            link:"https://starwars.fandom.com/wiki/Sivvi"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
