@@ -9452,6 +9452,24 @@ link:
 "https://starwars.fandom.com/wiki/Wayland/Legends"
 
 },
+
+{
+
+name:"Wetyin's Colony",
+
+x:3582,
+
+y:2536,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Wetyin's_Colony_(planet)"
+
+},
     
 {
 
