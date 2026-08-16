@@ -1906,6 +1906,24 @@ link:
 
 {
 
+name:"Chenowei",
+
+x:3618,
+
+y:2554,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Chenowei"
+
+},
+
+{
+
 name:"Ch'hodos",
 
 x:3741,
@@ -4700,6 +4718,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Jaemus/Legends"
+
+},
+
+{
+
+name:"Jagomir",
+
+x:3664,
+
+y:2595,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Jagomir"
 
 },
     
