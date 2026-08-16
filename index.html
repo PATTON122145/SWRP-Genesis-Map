@@ -811,7 +811,13 @@ function buildGalaxyGrid() {
                             "gridCoordinateLabel",
 
                         html:
-                            coordinate,
+                            `<div style="
+                               width: 60px;
+                               height: 20px;
+                               display: flex;
+                               align-items: center;
+                               justify-content: center;
+                           ">${coordinate}</div>`,
 
                         iconSize:
                             [60, 20],
