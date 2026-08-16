@@ -8975,6 +8975,26 @@ link:
 "https://starwars.fandom.com/wiki/Troiken/Legends"
 
 },
+
+{
+
+name:"Troos",
+
+aka:"Vynx",
+
+x:3609,
+
+y:2591,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Troos"
+
+},
     
 {
 
