@@ -5399,6 +5399,24 @@ link:
 "https://starwars.fandom.com/wiki/Kubindi/Legends"
 
 },
+
+{
+
+name:"Kushibah",
+
+x:3529,
+
+y:2578,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kushibah"
+
+},
     
 {
 
