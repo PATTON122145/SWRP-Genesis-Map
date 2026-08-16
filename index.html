@@ -730,128 +730,103 @@ function getGridCoordinate(x, y) {
 
 function buildGalaxyGrid() {
 
-    for(
-        let row = 0;
-        row < GRID_ROWS;
-        row++
-    ) {
+    gridLayer.clearLayers();
+    gridLabelsLayer.clearLayers();
 
-        /* =================================
-           Y COORDINATES
-        ================================= */
+    /* =================================
+       DRAW VERTICAL GRID LINES
+    ================================= */
 
-        const y1 =
+    for (let column = 0; column <= GRID_COLUMNS; column++) {
+
+        const x =
+            GRID_START_X +
+            (column * GRID_SIZE_X);
+
+        L.polyline(
+            [
+                [GRID_END_Y, x],
+                [GRID_START_Y, x]
+            ],
+            {
+                color: "#00c3ff",
+                weight: 1,
+                opacity: 0.22,
+                interactive: false
+            }
+        ).addTo(gridLayer);
+    }
+
+
+    /* =================================
+       DRAW HORIZONTAL GRID LINES
+    ================================= */
+
+    for (let row = 0; row <= GRID_ROWS; row++) {
+
+        const y =
             GRID_START_Y -
             (row * GRID_SIZE_Y);
 
-        const y2 =
+        L.polyline(
+            [
+                [y, GRID_START_X],
+                [y, GRID_END_X]
+            ],
+            {
+                color: "#00c3ff",
+                weight: 1,
+                opacity: 0.22,
+                interactive: false
+            }
+        ).addTo(gridLayer);
+    }
+
+
+    /* =================================
+       DRAW GRID LABELS
+    ================================= */
+
+    for (let row = 0; row < GRID_ROWS; row++) {
+
+        const centerY =
             GRID_START_Y -
-            ((row + 1) * GRID_SIZE_Y);
+            ((row + 0.5) * GRID_SIZE_Y);
 
+        for (let column = 0; column < GRID_COLUMNS; column++) {
 
-        for(
-            let column = 0;
-            column < GRID_COLUMNS;
-            column++
-        ) {
-
-            /* =================================
-               X COORDINATES
-            ================================= */
-
-            const x1 =
+            const centerX =
                 GRID_START_X +
-                (column * GRID_SIZE_X);
-
-            const x2 =
-                GRID_START_X +
-                ((column + 1) * GRID_SIZE_X);
-
+                ((column + 0.5) * GRID_SIZE_X);
 
             const coordinate =
                 `${columnLetter(column)}${row + 1}`;
 
-
-            /* =================================
-               GRID CELL
-            ================================= */
-
-            L.rectangle(
-
-                [
-                    [y2, x1],
-                    [y1, x2]
-                ],
-
-                {
-
-                    className:
-                        "galaxyGridCell",
-
-                    stroke: true,
-
-                    color:
-                        "#00c3ff",
-
-                    weight: 1,
-
-                    opacity: 0.22,
-
-                    fill: false,
-
-                    interactive: false
-
-                }
-
-            ).addTo(gridLayer);
-
-
-            /* =================================
-               GRID LABEL
-            ================================= */
-
-            const centerY =
-                (y1 + y2) / 2;
-
-            const centerX =
-                (x1 + x2) / 2;
-
-
             L.marker(
-
                 [centerY, centerX],
-
                 {
+                    icon: L.divIcon({
 
-                    icon:
-                        L.divIcon({
+                        className:
+                            "gridCoordinateLabel",
 
-                            className:
-                                "gridCoordinateLabel",
+                        html:
+                            coordinate,
 
-                            html:
-                                coordinate,
+                        iconSize:
+                            [60, 20],
 
-                            iconSize:
-                                [60, 20],
+                        iconAnchor:
+                            [30, 10]
 
-                            iconAnchor:
-                                [30, 10]
-
-                        }),
+                    }),
 
                     interactive: false,
-
                     keyboard: false
-
                 }
-
             ).addTo(gridLabelsLayer);
-
         }
-
     }
-
 }
 
 
