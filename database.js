@@ -2196,6 +2196,24 @@ link:
 "https://starwars.fandom.com/wiki/Churruma"
 
 },
+
+{
+
+name:"Cirrus",
+
+x:2782,
+
+y:2445,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cirrus"
+
+},
     
 {
 
@@ -2538,6 +2556,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Dactruria_system/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Dalron System",
+
+    x:2739,
+
+    y:2419,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Dalron IV",
+                    link:"https://starwars.fandom.com/wiki/Dalron_IV"
+                },
+
+                {
+                    name:"Dalron Five",
+                    link:"https://starwars.fandom.com/wiki/Dalron_Five"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -5627,7 +5682,7 @@ link:
 
 name:"Keitum",
 
-x:2740,
+x:2720,
 
 y:2405,
     
