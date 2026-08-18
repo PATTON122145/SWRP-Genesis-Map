@@ -3096,6 +3096,24 @@ link:
 "https://starwars.fandom.com/wiki/Endoraan"
 
 },
+
+{
+    
+name:"Endregaad",
+
+x:3890,
+
+y:2532,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Endregaad"
+
+},
     
 {
     
@@ -9104,6 +9122,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Thustra/Legends"
+
+},
+
+{
+
+name:"Tion",
+
+x:3904,
+
+y:2518,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tion"
 
 },
 
