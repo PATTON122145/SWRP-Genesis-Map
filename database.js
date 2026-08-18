@@ -708,6 +708,24 @@ link:
 "https://starwars.fandom.com/wiki/Asation"
 
 },
+
+{
+
+name:"Ashas Ree",
+
+x:3711,
+
+y:2612,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ashas_Ree/Legends"
+
+},
     
 {
 
