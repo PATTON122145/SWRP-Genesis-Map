@@ -6169,7 +6169,7 @@ name:"Malachor V",
 
 x:3840,
 
-y:2650,
+y:2640,
     
 description:
 
@@ -6825,7 +6825,7 @@ aka:"Medriaas",
 
 x:3855,
 
-y:2642,
+y:2632,
     
 description:
 
@@ -9803,7 +9803,7 @@ name:"Vaynai",
 
 x:3870,
 
-y:2650,
+y:2640,
     
 description:
 
