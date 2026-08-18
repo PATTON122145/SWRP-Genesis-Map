@@ -313,20 +313,54 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Almania",
+    name:"Almanian System",
 
-x:3830,
+    x:3830,
 
-y:2615,
+    y:2615,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Almania"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Almania",
+                    link:"https://starwars.fandom.com/wiki/Almania",
+
+                    moons:[
+
+                        {
+                            name:"Pydyr",
+                            link:"https://starwars.fandom.com/wiki/Pydyr"
+                        },
+
+                        {
+                            name:"Drewwa",
+                            link:"https://starwars.fandom.com/wiki/Drewwa"
+                        },
+
+                        {
+                            name:"Auyemesh",
+                            link:"https://starwars.fandom.com/wiki/Auyemesh"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -3011,6 +3045,24 @@ link:
 
 {
     
+name:"Emmer",
+
+x:3873,
+
+y:2600,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Emmer"
+
+},
+
+{
+    
 name:"Endex",
 
 x:2799,
@@ -4916,6 +4968,24 @@ link:
 "https://starwars.fandom.com/wiki/Jaminere/Legends"
 
 },
+
+{
+
+name:"Janodral Mizar",
+
+x:3867,
+
+y:2541,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Janodral_Mizar"
+
+},
     
 {
     type:"system",
@@ -5978,20 +6048,64 @@ link:
 },
    
 {
+    type:"system",
 
-name:"Makem Te",
+    name:"Makem System",
 
-x:3875,
+    x:3875,
 
-y:2565,
-    
-description:
+    y:2565,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Makem_Te/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Makem Pria",
+                    link:"https://starwars.fandom.com/wiki/Makem_Pria"
+                },
+
+                {
+                    name:"Makem Dua",
+                    link:"https://starwars.fandom.com/wiki/Makem_Dua"
+                },
+
+                {
+                    name:"Makem Te",
+                    link:"https://starwars.fandom.com/wiki/Makem_Te"
+                },
+
+                {
+                    name:"Makem Qat",
+                    link:"https://starwars.fandom.com/wiki/Makem_Qat"
+                },
+
+                {
+                    name:"Makem Liva",
+                    link:"https://starwars.fandom.com/wiki/Makem_Liva"
+                },
+
+                {
+                    name:"Makem Hek",
+                    link:"https://starwars.fandom.com/wiki/Makem_Hek"
+                },
+
+                {
+                    name:"Makem Sup",
+                    link:"https://starwars.fandom.com/wiki/Makem_Sup"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -7754,20 +7868,39 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Raxus Prime",
+    name:"Raxus System",
 
-x:3900,
+    x:3900,
 
-y:2515,
-    
-description:
+    y:2525,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Raxus_Prime/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Raxus Prime",
+                    link:"https://starwars.fandom.com/wiki/Raxus_Prime"
+                },
+
+                {
+                    name:"Raxus Secundus",
+                    link:"https://starwars.fandom.com/wiki/Raxus_Secundus"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
