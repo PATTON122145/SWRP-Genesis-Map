@@ -2742,20 +2742,54 @@ link:
 },
     
 {
-    
-name:"Dromund Kaas",
+    type:"system",
 
-x:3720,
+    name:"Dromund System",
 
-y:2610,
+    x:3720,
 
-description:
+    y:2610,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Dromund_Kaas/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Dromund Ixin",
+                    link:"https://starwars.fandom.com/wiki/Dromund_Ixin"
+                },
+
+                {
+                    name:"Dromund Kalakar",
+                    link:"https://starwars.fandom.com/wiki/Dromund_Kalakar"
+                },
+
+                {
+                    name:"Dromund Kaas",
+                    link:"https://starwars.fandom.com/wiki/Dromund_Kaas"
+                },
+
+                {
+                    name:"Dromund Fels",
+                    link:"https://starwars.fandom.com/wiki/Dromund_Fels"
+                },
+
+                {
+                    name:"Dromund Tyne",
+                    link:"https://starwars.fandom.com/wiki/Dromund_Tyne"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
