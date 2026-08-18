@@ -2139,6 +2139,24 @@ link:
 "https://starwars.fandom.com/wiki/Contruum/Legends"
 
 },
+
+{
+
+name:"Corbos",
+
+x:3679,
+
+y:2571,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Corbos"
+
+},
     
 {
 
@@ -4826,6 +4844,24 @@ link:
 "https://starwars.fandom.com/wiki/Jagomir"
 
 },
+
+{
+
+name:"Jaguada",
+
+x:3732,
+
+y:2612,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Jaguada/Legends"
+
+},
     
 {
 
@@ -6668,6 +6704,24 @@ link:
 "https://starwars.fandom.com/wiki/Nfolgai"
 
 },
+
+{
+
+name:"Nicht Ka",
+
+x:3697,
+
+y:2604,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nicht_Ka"
+
+},
     
 {
 
@@ -7732,6 +7786,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Reynon"
+
+},
+
+{
+
+name:"Rhelg",
+
+x:3746,
+
+y:2594,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Rhelg/Legends"
 
 },
     
