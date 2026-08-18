@@ -5368,6 +5368,24 @@ link:
 "https://starwars.fandom.com/wiki/Kamar/Legends"
 
 },
+
+{
+
+name:"Kanaver",
+
+x:3857,
+
+y:2513,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kanaver"
+
+},
     
 {
 
