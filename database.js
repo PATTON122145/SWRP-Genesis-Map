@@ -2766,7 +2766,7 @@ link:
 
     x:3720,
 
-    y:2620,
+    y:2600,
 
     description:"",
 
@@ -9225,6 +9225,58 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Uviuy_Exen"
+
+},
+
+{
+    type:"system",
+
+    name:"Uziel System",
+
+    x:3761,
+
+    y:2573,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Zilior",
+                    link:"https://starwars.fandom.com/wiki/Zilior"
+                },
+
+                {
+                    name:"Vanqor",
+                    link:"https://starwars.fandom.com/wiki/Vanqor/Legends"
+                },
+
+                {
+                    name:"Typha-Dor",
+                    link:"https://starwars.fandom.com/wiki/Typha-Dor",
+
+                    moons:[
+
+                        {
+                            name:"TY44",
+                            link:"https://starwars.fandom.com/wiki/TY44"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
