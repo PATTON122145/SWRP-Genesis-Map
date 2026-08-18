@@ -9253,7 +9253,7 @@ link:
 
     x:3761,
 
-    y:2573,
+    y:2568,
 
     description:"",
 
@@ -9863,6 +9863,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Yorgraxx"
+
+},
+
+{
+
+name:"Yutusk",
+
+x:3802,
+
+y:2583,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Yutusk"
 
 },
 
