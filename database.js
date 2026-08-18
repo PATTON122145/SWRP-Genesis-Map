@@ -932,6 +932,24 @@ link:
 "https://starwars.fandom.com/wiki/Bastion/Legends"
 
 },
+
+{
+
+name:"Begeren",
+
+x:3720,
+
+y:2642,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Begeren"
+
+},
     
 {
 
@@ -5593,6 +5611,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Korriz"
+
+},
+
+{
+
+name:"Krayiss II",
+
+x:3780,
+
+y:2616,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Krayiss_II"
 
 },
 
