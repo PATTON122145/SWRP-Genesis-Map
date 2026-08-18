@@ -8391,6 +8391,24 @@ link:
 
 {
 
+name:"Syngia",
+
+x:3791,
+
+y:2571,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Syngia"
+
+},
+
+{
+
 name:"Svolten",
 
 x:3740,
