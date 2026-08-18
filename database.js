@@ -715,7 +715,7 @@ name:"Ashas Ree",
 
 x:3711,
 
-y:2612,
+y:2617,
 
 description:
 
@@ -5411,6 +5411,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ketaris/Legends"
+
+},
+
+{
+
+name:"Khar Delba",
+
+x:3762,
+
+y:2606,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Khar_Delba"
 
 },
     
