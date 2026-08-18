@@ -91,20 +91,49 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Adumar",
+    name:"Katorrs System",
 
-x:2705,
+    x:2705,
 
-y:2455,
+    y:2455,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Adumar/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Enkep",
+                    link:"https://starwars.fandom.com/wiki/Enkep"
+                },
+
+                {
+                    name:"Adumar",
+                    link:"https://starwars.fandom.com/wiki/Adumar/Legends"
+                },
+
+                {
+                    name:"Bakarr",
+                    link:"https://starwars.fandom.com/wiki/Bakarr"
+                },
+
+                {
+                    name:"Katorr",
+                    link:"https://starwars.fandom.com/wiki/Katorr"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -546,20 +575,59 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ansion",
+    name:"Ansion System",
 
-x:2670,
+    x:2670,
 
-y:2395,
+    y:2395,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Ansion/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Fahariyn",
+                    link:"https://starwars.fandom.com/wiki/Fahariyn"
+                },
+
+                {
+                    name:"Gaulix",
+                    link:"https://starwars.fandom.com/wiki/Gaulix"
+                },
+
+                {
+                    name:"Ansion",
+                    link:"https://starwars.fandom.com/wiki/Ansion"
+                },
+
+                {
+                    name:"Soltan",
+                    link:"https://starwars.fandom.com/wiki/Soltan"
+                },
+
+                {
+                    name:"Trauchta",
+                    link:"https://starwars.fandom.com/wiki/Trauchta"
+                },
+
+                {
+                    name:"Sulomu",
+                    link:"https://starwars.fandom.com/wiki/Sulomu"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -2047,6 +2115,53 @@ link:
 },
 
 {
+    type:"system",
+
+    name:"Cholganna System",
+
+    x:3946,
+
+    y:2598,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Chol",
+                    link:"https://starwars.fandom.com/wiki/Chol"
+                },
+
+                {
+                    name:"Cholganna",
+                    link:"https://starwars.fandom.com/wiki/Cholganna/Legends"
+                },
+
+                {
+                    name:"Ryien",
+                    link:"https://starwars.fandom.com/wiki/Ryien"
+                },
+
+                {
+                    name:"Be'ekk",
+                    link:"https://starwars.fandom.com/wiki/Be%27ekk"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
+
+{
 
 name:"Chrellis",
 
@@ -2643,6 +2758,48 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Deysum_III"
+
+},
+
+{
+    type:"system",
+
+    name:"Diab System",
+
+    x:2705,
+
+    y:2481,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Diab",
+                    link:"https://starwars.fandom.com/wiki/Diab",
+
+                    moons:[
+
+                        {
+                            name:"Diab 6",
+                            link:"https://starwars.fandom.com/wiki/Diab_6"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -3741,6 +3898,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Forsen"
+
+},
+
+{
+    
+name:"Frunchettan",
+
+x:2626,
+
+y:2428,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Frunchettan_system/Legends"
 
 },
 
@@ -5454,7 +5629,7 @@ name:"Keitum",
 
 x:2740,
 
-y:2410,
+y:2405,
     
 description:
 
@@ -7993,6 +8168,24 @@ link:
 "https://starwars.fandom.com/wiki/Reecee/Legends"
 
 },
+
+{
+
+name:"Rekkiad",
+
+x:3858,
+
+y:2654,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Rekkiad"
+
+},
     
 {
 
@@ -9255,9 +9448,9 @@ link:
 
 name:"Toong'l",
 
-x:4044,
+x:3983,
 
-y:2580,
+y:2361,
 
 description:
 
