@@ -7734,6 +7734,24 @@ link:
 "https://starwars.fandom.com/wiki/Randon/Legends"
 
 },
+
+{
+
+name:"Ranroon",
+
+x:3787,
+
+y:2595,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ranroon"
+
+},
     
 {
 
