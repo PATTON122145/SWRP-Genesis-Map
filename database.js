@@ -1422,6 +1422,24 @@ link:
 "https://starwars.fandom.com/wiki/Bosph/Legends"
 
 },
+
+{
+
+name:"Bosthirda",
+
+x:3713,
+
+y:2592,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bosthirda/Legends"
+
+},
     
 {
 
@@ -2748,7 +2766,7 @@ link:
 
     x:3720,
 
-    y:2610,
+    y:2620,
 
     description:"",
 
@@ -5476,7 +5494,7 @@ aka:"Moraband",
 
 x:3705,
 
-y:2590,
+y:2580,
     
 description:
 
