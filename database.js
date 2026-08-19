@@ -5219,6 +5219,24 @@ link:
 
 {
 
+name:"JanFathal",
+
+x:2866,
+
+y:2486,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/JanFathal"
+
+},
+
+{
+
 name:"Janodral Mizar",
 
 x:3867,
@@ -7481,6 +7499,24 @@ link:
 "https://starwars.fandom.com/wiki/Ord_Radama/Legends"
 
 },
+
+{
+
+name:"Ord Tessebok",
+
+x:2927,
+
+y:2381,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ord_Tessebok"
+
+},
     
 {
 
@@ -7522,7 +7558,7 @@ link:
 
 name:"Orinda",
 
-x:2915,
+x:2900,
 
 y:2445,
 
@@ -9678,6 +9714,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Troos"
+
+},
+
+{
+
+name:"Troska",
+
+x:2745,
+
+y:2472,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Troska"
 
 },
     
