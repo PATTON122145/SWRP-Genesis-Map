@@ -4301,6 +4301,24 @@ link:
 "https://starwars.fandom.com/wiki/Glee_Anselm/Legends"
 
 },
+
+{
+
+name:"Gonmore",
+
+x:2921,
+
+y:2393,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gonmore"
+
+},
     
 {
 
@@ -7416,7 +7434,7 @@ name:"Ord Cantrell",
 
 x:2925,
 
-y:2480,
+y:2470,
 
 description:
 
@@ -10406,6 +10424,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/The_Wheel/Legends"
+
+},
+
+{
+
+name:"Wistril",
+
+x:2874,
+
+y:2475,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Wistril"
 
 },
    
