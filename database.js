@@ -6219,6 +6219,24 @@ link:
 "https://starwars.fandom.com/wiki/Livien"
 
 },
+
+{
+
+name:"Lonnaw",
+
+x:2905,
+
+y:2427,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Lonnaw"
+
+},
     
 {
 
