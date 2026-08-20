@@ -7318,6 +7318,24 @@ link:
 "https://starwars.fandom.com/wiki/Null/Legends"
 
 },
+
+{
+
+name:"Obredaan",
+
+x:2914,
+
+y:2408,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Obredaan"
+
+},
     
 {
 
