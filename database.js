@@ -3344,6 +3344,24 @@ link:
 "https://starwars.fandom.com/wiki/Entralla/Legends"
 
 },
+
+{
+    
+name:"Entuur",
+
+x:3019,
+
+y:2412,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Entuur"
+
+},
     
 {
     
@@ -6163,6 +6181,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Lantillies/Legends"
+
+},
+
+{
+
+name:"Lenico IV",
+
+x:3008,
+
+y:2489,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Lenico_IV"
 
 },
     
