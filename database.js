@@ -3182,6 +3182,24 @@ link:
 "https://starwars.fandom.com/wiki/Eadu"
 
 },
+
+{
+    
+name:"Ebra",
+
+x:3028,
+
+y:2425,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ebra"
+
+},
     
 {
     
