@@ -5164,20 +5164,59 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ithor",
+    name:"Ottega System",
 
-x:3090,
+    x:3076,
 
-y:2405,
+    y:2405,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Ithor/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Imrooso",
+                    link:"https://starwars.fandom.com/wiki/Imrooso"
+                },
+
+                {
+                    name:"Torgazi",
+                    link:"https://starwars.fandom.com/wiki/Torgazi"
+                },
+
+                {
+                    name:"Ottega",
+                    link:"https://starwars.fandom.com/wiki/Ottega/Legends"
+                },
+
+                {
+                    name:"Ithor",
+                    link:"https://starwars.fandom.com/wiki/Ithor/Legends"
+                },
+
+                {
+                    name:"Shihor",
+                    link:"https://starwars.fandom.com/wiki/Shihor"
+                },
+
+                {
+                    name:"Gyo",
+                    link:"https://starwars.fandom.com/wiki/Gyo"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -8058,6 +8097,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Polus",
+
+x:3128,
+
+y:2446,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Polus"
 
 },
 
