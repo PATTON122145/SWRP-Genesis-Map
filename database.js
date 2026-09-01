@@ -7396,6 +7396,24 @@ link:
 
 {
 
+name:"Noonar",
+
+x:3084,
+
+y:2430,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Noonar"
+
+},
+
+{
+
 name:"Nouane",
 
 x:3198,
