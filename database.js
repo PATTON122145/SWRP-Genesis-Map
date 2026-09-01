@@ -2877,6 +2877,24 @@ link:
 "https://starwars.fandom.com/wiki/D'ian"
 
 },
+
+{
+    
+name:"Doan",
+
+x:3077,
+
+y:2444,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Doan"
+
+},
     
 {
     
@@ -4845,6 +4863,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Hethar"
+
+},
+
+{
+
+name:"Hewett",
+
+x:3123,
+
+y:2390,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hewett_system/Legends"
 
 },
 
