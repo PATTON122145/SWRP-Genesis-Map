@@ -1668,6 +1668,24 @@ link:
 "https://starwars.fandom.com/wiki/B'trilla"
 
 },
+
+{
+
+name:"Cademimu V",
+
+x:3105,
+
+y:2463,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cademimu_V"
+
+},
     
 {
 
