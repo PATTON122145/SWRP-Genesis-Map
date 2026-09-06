@@ -1596,6 +1596,24 @@ link:
 "https://starwars.fandom.com/wiki/Bosthirda/Legends"
 
 },
+
+{
+
+name:"Botajef",
+
+x:3374,
+
+y:2444,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Botajef/Legends"
+
+},
     
 {
 
