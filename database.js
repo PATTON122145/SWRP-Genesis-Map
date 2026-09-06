@@ -974,6 +974,48 @@ link:
 },
 
 {
+    type:"system",
+
+    name:"Bandomeer System",
+
+    x:3346,
+
+    y:2410,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Envos",
+                    link:"https://starwars.fandom.com/wiki/Envos"
+                },
+
+                {
+                    name:"Bandomeer",
+                    link:"https://starwars.fandom.com/wiki/Bandomeer/Legends"
+                },
+
+                {
+                    name:"Fitee",
+                    link:"https://starwars.fandom.com/wiki/Fitee"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
+
+{
 
 name:"Bar Neth",
 
@@ -8602,6 +8644,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Raydonia",
+
+x:3413,
+
+y:2429,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Raydonia_system/Legends"
 
 },
     
