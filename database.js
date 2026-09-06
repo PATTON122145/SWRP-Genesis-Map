@@ -5992,6 +5992,24 @@ link:
     ]
 
 },
+
+{
+
+name:"Katraasii",
+
+x:3396,
+
+y:2417,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Katraasii"
+
+},
     
 {
 
@@ -10501,6 +10519,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vandyne"
+
+},
+
+{
+
+name:"Vanquo",
+
+x:3350,
+
+y:2401,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vanquo"
 
 },
 
