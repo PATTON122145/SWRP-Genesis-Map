@@ -7703,6 +7703,24 @@ link:
 
 {
 
+name:"Ord Sigatt",
+
+x:3200,
+
+y:2397,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ord_Sigatt"
+
+},
+
+{
+
 name:"Ord Thoden",
 
 x:2757,
