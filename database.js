@@ -4904,6 +4904,24 @@ link:
 
 {
 
+name:"Harloen",
+
+x:3356,
+
+y:2420,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Harloen"
+
+},
+
+{
+
 name:"Haverling",
 
 x:2906,
