@@ -8235,7 +8235,7 @@ name:"Phindar",
 
 x:3460,
 
-y:2365,
+y:2377,
 
 description:
 
@@ -9134,6 +9134,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Seelos"
+
+},
+
+{
+
+name:"Selitan",
+
+x:3455,
+
+y:2484,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Selitan"
 
 },
     
