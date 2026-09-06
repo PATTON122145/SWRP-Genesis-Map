@@ -1947,6 +1947,24 @@ link:
 "https://starwars.fandom.com/wiki/Cassander"
 
 },
+
+{
+
+name:"Cathar",
+
+x:3272,
+
+y:2466,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Cathar_(location)/Legends"
+
+},
     
 {
 
@@ -4960,6 +4978,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Hijado",
+
+x:3391,
+
+y:2459,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hijado"
 
 },
     
@@ -8349,6 +8385,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Quanton"
+
+},
+
+{
+
+name:"Quelii",
+
+x:3339,
+
+y:2470,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Quelii"
 
 },
     
