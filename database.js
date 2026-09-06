@@ -3075,6 +3075,24 @@ link:
 "https://starwars.fandom.com/wiki/Dra_III"
 
 },
+
+{
+    
+name:"Drackmar",
+
+x:3371,
+
+y:2466,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Drackmar"
+
+},
     
 {
     
@@ -10387,6 +10405,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vandyne"
+
+},
+
+{
+
+name:"Varkana",
+
+x:3321,
+
+y:2483,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Varkana"
 
 },
     
