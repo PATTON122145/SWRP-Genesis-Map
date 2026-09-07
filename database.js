@@ -10175,6 +10175,24 @@ link:
 "https://starwars.fandom.com/wiki/Telti/Legends"
 
 },
+
+{
+
+name:"Tenara",
+
+x:3607,
+
+y:2444,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tenara"
+
+},
     
 {
 
@@ -11002,10 +11020,6 @@ x:2740,
 
 y:2650,
 
-affiliation:
-    
-"Fel Empire",
-    
 description:
 
 "",
@@ -11013,6 +11027,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Valc_VII"
+
+},
+
+{
+
+name:"Vallusk Cluster",
+
+x:3570,
+
+y:2489,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Vallusk_Cluster/Legends"
 
 },
     
