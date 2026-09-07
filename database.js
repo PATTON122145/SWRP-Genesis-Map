@@ -2478,6 +2478,24 @@ link:
 "https://starwars.fandom.com/wiki/Columex/Legends"
 
 },
+
+{
+
+name:"The Cometwash",
+
+x:3594,
+
+y:2473,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/The_Cometwash"
+
+},
     
 {
 
@@ -6537,6 +6555,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Kol_Huro_system/Legends"
+
+},
+
+{
+
+name:"Korphir",
+    
+x:3600,
+
+y:2453,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Korphir"
 
 },
     
