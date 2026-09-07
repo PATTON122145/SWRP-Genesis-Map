@@ -3769,6 +3769,24 @@ link:
 },
 
 {
+    
+name:"Far Indosa",
+
+x:3471,
+
+y:2456,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Far_Indosa_system/Legends"
+
+},
+
+{
     type:"system",
 
     name:"Faarlson System",
@@ -11139,20 +11157,94 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Yavin 4",
+    name:"Yavin System",
 
-x:3500,
+    x:3500,
 
-y:2493,
-    
-description:
+    y:2493,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Yavin_4/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Fiddanl",
+                    link:"https://starwars.fandom.com/wiki/Fiddanl"
+                },
+
+                {
+                    name:"Stroiketcy",
+                    link:"https://starwars.fandom.com/wiki/Stroiketcy"
+                },
+
+                {
+                    name:"Yavin Prime",
+                    link:"https://starwars.fandom.com/wiki/Yavin_Prime/Legends",
+
+                    moons:[
+
+                        {
+                            name:"Yavin 1",
+                            link:"https://starwars.fandom.com/wiki/Yavin_1"
+                        },
+
+                        {
+                            name:"Yavin 2",
+                            link:"https://starwars.fandom.com/wiki/Yavin_2"
+                        },
+
+                        {
+                            name:"Yavin 3",
+                            link:"https://starwars.fandom.com/wiki/Yavin_3"
+                        },
+
+                        {
+                            name:"Yavin 4",
+                            link:"https://starwars.fandom.com/wiki/Yavin_4/Legends"
+                        },
+
+                        {
+                            name:"Yavin 6",
+                            link:"https://starwars.fandom.com/wiki/Yavin_6"
+                        },
+
+                        {
+                            name:"Yavin 7",
+                            link:"https://starwars.fandom.com/wiki/Yavin_7"
+                        },
+
+                        {
+                            name:"Yavin 8",
+                            link:"https://starwars.fandom.com/wiki/Yavin_8/Legends"
+                        },
+
+                        {
+                            name:"Yavin 13",
+                            link:"https://starwars.fandom.com/wiki/Yavin_13/Legends"
+                        },
+
+                        {
+                            name:"Yavin 22",
+                            link:"https://starwars.fandom.com/wiki/Yavin_22"
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
