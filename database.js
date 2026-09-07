@@ -722,20 +722,44 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Arda II",
+    name:"Arda System",
 
-x:3639,
+    x:3639,
 
-y:2479,
+    y:2479,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Arda_II"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Arda I",
+                    link:"https://starwars.fandom.com/wiki/Arda_I"
+                },
+
+                {
+                    name:"Arda II",
+                    link:"https://starwars.fandom.com/wiki/Arda_II"
+                },
+
+                {
+                    name:"Arda III",
+                    link:"https://starwars.fandom.com/wiki/Arda_III"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
