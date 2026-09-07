@@ -816,6 +816,24 @@ link:
 "https://starwars.fandom.com/wiki/Arkania/Legends"
 
 },
+
+{
+
+name:"Arkuda",
+
+x:3577,
+
+y:2465,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Arkuda"
+
+},
     
 {
 
@@ -1092,6 +1110,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Baramorra"
+
+},
+
+{
+
+name:"Barison",
+
+x:3617,
+
+y:2495,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Barison"
 
 },
     
@@ -3395,6 +3431,24 @@ link:
 
 {
     
+name:"Durgen's Star",
+
+x:3527,
+
+y:2441,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Durgen%27s_Star/Legends"
+
+},
+
+{
+    
 name:"Duroon",
 
 x:3847,
@@ -4307,6 +4361,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Gabredor_III/Legends"
+
+},
+
+{
+    
+name:"Gala",
+
+x:3607,
+
+y:2370,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gala"
 
 },
     
@@ -5900,6 +5972,43 @@ link:
 "https://starwars.fandom.com/wiki/Joodrudda"
 
 },
+
+{
+    type:"system",
+
+    name:"Jovan System",
+
+    x:3531,
+
+    y:2477,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Jovan III",
+                    link:"https://starwars.fandom.com/wiki/Jovan_III"
+                },
+
+                {
+                    name:"Jovan Station",
+                    link:"https://starwars.fandom.com/wiki/Jovan_Station"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
 
@@ -6684,6 +6793,25 @@ link:
 "https://starwars.fandom.com/wiki/Listehol"
 
 },
+
+{
+
+name:"Little Capella",
+
+x:3649,
+
+y:2451,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Little_Capella"
+
+},
+
 
 {
 
@@ -8687,6 +8815,24 @@ link:
 "https://starwars.fandom.com/wiki/Presbalin"
 
 },
+
+{
+
+name:"Pygorix",
+
+x:3666,
+
+y:2484,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Pygorix"
+
+},
     
 {
 
@@ -8757,6 +8903,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Quelii"
+
+},
+
+{
+
+name:"Quell",
+
+x:3672,
+
+y:2415,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Quell/Legends"
 
 },
     
@@ -10393,6 +10557,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Trian/Legends"
+
+},
+
+{
+
+name:"Trinovat",
+
+x:3507,
+
+y:2461,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Trinovat"
 
 },
     
