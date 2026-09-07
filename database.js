@@ -1749,6 +1749,24 @@ link:
 
 {
 
+name:"Bronsoon",
+
+x:3556,
+
+y:2447,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bronsoon"
+
+},
+
+{
+
 name:"B'trilla",
 
 x:3622,
@@ -6952,7 +6970,7 @@ name:"Maridun",
 
 x:3583,
 
-y:2446,
+y:2437,
     
 description:
 
@@ -8499,6 +8517,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Prefsbelt_IV/Legends"
+
+},
+
+{
+
+name:"Presbalin",
+
+x:3456,
+
+y:2466,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Presbalin"
 
 },
     
