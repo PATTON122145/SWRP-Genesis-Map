@@ -726,7 +726,7 @@ link:
 
     name:"Arda System",
 
-    x:3639,
+    x:3629,
 
     y:2479,
 
@@ -1117,7 +1117,7 @@ link:
 
 name:"Barison",
 
-x:3617,
+x:3607,
 
 y:2495,
     
@@ -1974,7 +1974,7 @@ link:
 
 name:"Capella",
 
-x:3638,
+x:3628,
 
 y:2463,
 
@@ -6105,7 +6105,7 @@ link:
 
 name:"Kalishik",
 
-x:3632,
+x:3622,
 
 y:2489,
     
@@ -6224,6 +6224,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Karavis"
+
+},
+
+{
+
+name:"Karsten's World",
+
+x:3671,
+
+y:2471,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Karsten's_World"
 
 },
     
@@ -6798,7 +6816,7 @@ link:
 
 name:"Little Capella",
 
-x:3649,
+x:3639,
 
 y:2451,
     
@@ -9846,6 +9864,24 @@ link:
 "https://starwars.fandom.com/wiki/Spefik"
 
 },
+
+{
+
+name:"Spintir",
+
+x:3678,
+
+y:2490,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Spintir/Legends"
+
+},
     
 {
 
@@ -10705,42 +10741,6 @@ link:
 "https://starwars.fandom.com/wiki/Ubrikkia/Legends"
 
 },
-    
-{
-
-name:"Umbara",
-
-x:3453,
-
-y:1973,
-
-description:
-
-"",
-
-link:
-
-"https://starwars.fandom.com/wiki/Umbara/Legends"
-
-},
-    
-{
-
-name:"Uogo'cor",
-
-x:3616,
-
-y:1886,
-
-description:
-
-"",
-
-link:
-
-"https://starwars.fandom.com/wiki/Uogo'cor/Legends"
-
-},
 
 {
 
@@ -10777,6 +10777,42 @@ link:
 "https://starwars.fandom.com/wiki/Ultaar/Legends"
 
 },
+
+{
+
+name:"Umbara",
+
+x:3453,
+
+y:1973,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Umbara/Legends"
+
+},
+
+{
+
+name:"Uogo'cor",
+
+x:3616,
+
+y:1886,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Uogo'cor/Legends"
+
+},
     
 {
 
@@ -10811,6 +10847,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Urdur/Legends"
+
+},
+
+{
+
+name:"Usta",
+
+x:3599,
+
+y:2488,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Usta"
 
 },
     
