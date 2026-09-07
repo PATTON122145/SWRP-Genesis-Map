@@ -431,6 +431,24 @@ link:
 
 {
 
+name:"Althir III",
+
+x:3549,
+
+y:2393,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Althir_III"
+
+},
+
+{
+
 name:"Altyr V",
 
 x:3370,
@@ -2853,6 +2871,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Deltooine"
+
+},
+
+{
+    
+name:"Denarii Nebula",
+
+x:3461,
+
+y:2474,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Denarii_Nebula/Legends"
 
 },
     
@@ -8396,6 +8432,24 @@ link:
 
 {
 
+name:"Povanaria",
+
+x:3546,
+
+y:2434,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Povanaria"
+
+},
+
+{
+
 name:"Praadost II",
 
 x:3518,
@@ -11018,7 +11072,7 @@ name:"Yavin 4",
 
 x:3500,
 
-y:2485,
+y:2493,
     
 description:
 
