@@ -4669,6 +4669,24 @@ link:
 "https://starwars.fandom.com/wiki/Gulma"
 
 },
+
+{
+
+name:"Gulvitch",
+
+x:3572,
+
+y:2456,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gulvitch"
+
+},
     
 {
 
@@ -11081,6 +11099,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Xo"
+
+},
+
+{
+
+name:"Xochtl",
+
+x:3537,
+
+y:2450,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Xochtl"
 
 },
     
