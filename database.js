@@ -1912,6 +1912,24 @@ link:
 
 {
 
+name:"Capella",
+
+x:3638,
+
+y:2463,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Capella"
+
+},
+
+{
+
 name:"Capza",
 
 x:2823,
@@ -3894,6 +3912,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Feena"
+
+},
+
+{
+    
+name:"Feldwes",
+
+x:3658,
+
+y:2479,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Feldwes"
 
 },
     
@@ -5934,6 +5970,24 @@ link:
 
 {
 
+name:"Kalishik",
+
+x:3632,
+
+y:2489,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kalishik"
+
+},
+
+{
+
 name:"Kalki Nebula",
 
 x:2947,
@@ -6905,6 +6959,24 @@ link:
 "https://starwars.fandom.com/wiki/Mall'ordian"
 
 },
+
+{
+
+name:"Malrev IV",
+
+x:3472,
+
+y:2417,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Malrev_IV"
+
+},
     
 {
 
@@ -7541,6 +7613,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Nazzri"
+
+},
+
+{
+
+name:"Near Indosa",
+
+x:3481,
+
+y:2466,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Near_Indosa"
 
 },
     
@@ -10171,6 +10261,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Toprawa/Legends"
+
+},
+
+{
+
+name:"Torque",
+
+x:3503,
+
+y:2480,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Torque"
 
 },
     
