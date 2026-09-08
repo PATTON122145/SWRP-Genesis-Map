@@ -1208,24 +1208,41 @@ link:
 "https://starwars.fandom.com/wiki/Belasco/Legends"
 
 },
-    
+
 {
+    type:"system",
 
-name:"Belderone",
-    
-aka:"Vartholium",
+    name:"Belderone System",
 
-x:3788,
+    x:3788,
 
-y:2399,
-    
-description:
+    y:2399,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Belderone/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Belderone",
+                    link:"https://starwars.fandom.com/wiki/Belderone/Legends"
+                },
+
+                {
+                    name:"Kulthis",
+                    link:"https://starwars.fandom.com/wiki/Kulthis"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -4048,20 +4065,69 @@ link:
 },
     
 {
-    
-name:"Felucia",
+    type:"system",
 
-x:3776,
+    name:"Felucia System",
 
-y:2484,
+    x:3776,
 
-description:
+    y:2484,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Felucia/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Coccia",
+                    link:"https://starwars.fandom.com/wiki/Coccia"
+                },
+
+                {
+                    name:"Brembo",
+                    link:"https://starwars.fandom.com/wiki/Brembo"
+                },
+
+                {
+                    name:"Albata Ing",
+                    link:"https://starwars.fandom.com/wiki/Albata_Ing"
+                },
+
+                {
+                    name:"Felucia",
+                    link:"https://starwars.fandom.com/wiki/Felucia/Legends"
+                },
+
+                {
+                    name:"Farasu",
+                    link:"https://starwars.fandom.com/wiki/Farasu"
+                },
+
+                {
+                    name:"Yamime",
+                    link:"https://starwars.fandom.com/wiki/Yamime"
+                },
+
+                {
+                    name:"Tsutai",
+                    link:"https://starwars.fandom.com/wiki/Tsutai"
+                },
+
+                {
+                    name:"Imei",
+                    link:"https://starwars.fandom.com/wiki/Imei"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -4419,20 +4485,44 @@ link:
 },
     
 {
-    
-name:"Galidraan",
+    type:"system",
 
-x:3787,
+    name:"Galidraan System",
 
-y:2459,
+    x:3787,
 
-description:
+    y:2459,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Galidraan/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Galidraan",
+                    link:"https://starwars.fandom.com/wiki/Galidraan/Legends"
+                },
+
+                {
+                    name:"Galidraan III",
+                    link:"https://starwars.fandom.com/wiki/Galidraan_III"
+                },
+
+                {
+                    name:"Galidraan IV",
+                    link:"https://starwars.fandom.com/wiki/Galidraan_IV"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -8472,20 +8562,68 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ossus",
+    name:"Ageda System",
 
-x:3806,
+    x:3806,
 
-y:2404,
+    y:2404,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Ossus/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Kassa",
+                    link:"https://starwars.fandom.com/wiki/Kassa"
+                },
+
+                {
+                    name:"Tarassi",
+                    link:"https://starwars.fandom.com/wiki/Tarassi"
+                },
+
+                {
+                    name:"Ossus",
+                    link:"https://starwars.fandom.com/wiki/Ossus/Legends",
+
+                    moons:[
+
+                        {
+                            name:"Mim",
+                            link:"https://starwars.fandom.com/wiki/Mim"
+                        },
+
+                        {
+                            name:"Nerit",
+                            link:"https://starwars.fandom.com/wiki/Nerit"
+                        }
+
+                    ]
+                },
+
+                {
+                    name:"Colsassa",
+                    link:"https://starwars.fandom.com/wiki/Colsassa"
+                },
+
+                {
+                    name:"Missarassa",
+                    link:"https://starwars.fandom.com/wiki/Missarassa"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -9322,20 +9460,44 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Rhen Var",
+    name:"Tobali System",
 
-x:3764,
+    x:3764,
 
-y:2446,
-    
-description:
+    y:2446,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Rhen_Var/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Rhen Var",
+                    link:"https://starwars.fandom.com/wiki/Rhen_Var/Legends"
+                },
+
+                {
+                    name:"Mash Shareo",
+                    link:"https://starwars.fandom.com/wiki/Mash_Shareo"
+                },
+
+                {
+                    name:"Dungal Lem",
+                    link:"https://starwars.fandom.com/wiki/Dungal_Lem"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
