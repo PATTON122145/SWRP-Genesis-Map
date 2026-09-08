@@ -4786,7 +4786,7 @@ link:
 
 name:"Gromas",
 
-x:3623,
+x:3612,
 
 y:2346,
 
@@ -9952,6 +9952,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Stenos/Legends"
+
+},
+
+{
+
+name:"Stygeon Prime",
+
+x:3655,
+
+y:2381,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Stygeon_Prime"
 
 },
     
