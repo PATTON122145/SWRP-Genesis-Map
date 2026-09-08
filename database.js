@@ -7621,6 +7621,24 @@ link:
 "https://starwars.fandom.com/wiki/Morishim"
 
 },
+
+{
+
+name:"Mossak",
+
+x:3775,
+
+y:2471,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mossak"
+
+},
     
 {
 
