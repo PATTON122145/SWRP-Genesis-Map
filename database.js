@@ -1215,9 +1215,9 @@ name:"Belderone",
     
 aka:"Vartholium",
 
-x:3782,
+x:3788,
 
-y:2414,
+y:2399,
     
 description:
 
@@ -2465,9 +2465,9 @@ link:
 
 name:"Columex",
 
-x:3806,
+x:3782,
 
-y:2404,
+y:2414,
 
 description:
 
@@ -3301,6 +3301,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Drackmar"
+
+},
+
+{
+    
+name:"Draukyze",
+
+x:3772,
+
+y:2437,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Draukyze"
 
 },
     
@@ -8439,9 +8457,9 @@ link:
 
 name:"Ossus",
 
-x:3788,
+x:3806,
 
-y:2399,
+y:2404,
 
 description:
 
