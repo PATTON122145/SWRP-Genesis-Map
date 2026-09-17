@@ -6668,6 +6668,24 @@ link:
 
 {
 
+name:"Kodai",
+    
+x:3713,
+
+y:2464,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kodai"
+
+},
+
+{
+
 name:"Kol Huro",
     
 x:3283,
@@ -11661,6 +11679,58 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vortex/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Vorzyd System",
+
+    x:3698,
+
+    y:2430,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Vorzyd I",
+                    link:"https://starwars.fandom.com/wiki/Vorzyd_I"
+                },
+
+                {
+                    name:"Vorzyd II",
+                    link:"https://starwars.fandom.com/wiki/Vorzyd_II"
+                },
+
+                {
+                    name:"Vorzyd III",
+                    link:"https://starwars.fandom.com/wiki/Vorzyd_III"
+                },
+
+                {
+                    name:"Vorzyd IV",
+                    link:"https://starwars.fandom.com/wiki/Vorzyd_IV"
+                },
+
+                {
+                    name:"Vorzyd V",
+                    link:"https://starwars.fandom.com/wiki/Vorzyd_V/Legends"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
