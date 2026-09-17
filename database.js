@@ -720,6 +720,24 @@ link:
 "https://starwars.fandom.com/wiki/Aquaris/Legends"
 
 },
+
+{
+
+name:"Arcan IV",
+
+x:3814,
+
+y:2464,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Arcan_IV"
+
+},
     
 {
     type:"system",
@@ -6995,6 +7013,24 @@ link:
 
 {
 
+name:"Lola Sayu",
+
+x:3731,
+
+y:2452,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Lola_Sayu/Legends"
+
+},
+
+{
+
 name:"Lonnaw",
 
 x:2905,
@@ -10200,6 +10236,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Taanab/Legends"
+
+},
+
+{
+
+name:"Tandankin",
+
+x:3761,
+
+y:2493,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tandankin"
 
 },
 
