@@ -3325,7 +3325,7 @@ link:
     
 name:"Draukyze",
 
-x:3772,
+x:3758,
 
 y:2437,
 
@@ -9460,48 +9460,6 @@ link:
 },
     
 {
-    type:"system",
-
-    name:"Tobali System",
-
-    x:3764,
-
-    y:2446,
-
-    description:"",
-
-    worldGroups:[
-
-        {
-
-            label:"",
-
-            worlds:[
-
-                {
-                    name:"Rhen Var",
-                    link:"https://starwars.fandom.com/wiki/Rhen_Var/Legends"
-                },
-
-                {
-                    name:"Mash Shareo",
-                    link:"https://starwars.fandom.com/wiki/Mash_Shareo"
-                },
-
-                {
-                    name:"Dungal Lem",
-                    link:"https://starwars.fandom.com/wiki/Dungal_Lem"
-                }
-
-            ]
-
-        }
-
-    ]
-
-},
-    
-{
 
 name:"Rimcee Station",
 
@@ -10520,6 +10478,24 @@ link:
 
 {
 
+name:"Thanium",
+
+x:3801,
+
+y:2493,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Thanium"
+
+},
+
+{
+
 name:"Thesme",
 
 x:3386,
@@ -10683,6 +10659,48 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Tiss%27sharl"
+
+},
+
+{
+    type:"system",
+
+    name:"Tobali System",
+
+    x:3750,
+
+    y:2446,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Rhen Var",
+                    link:"https://starwars.fandom.com/wiki/Rhen_Var/Legends"
+                },
+
+                {
+                    name:"Mash Shareo",
+                    link:"https://starwars.fandom.com/wiki/Mash_Shareo"
+                },
+
+                {
+                    name:"Dungal Lem",
+                    link:"https://starwars.fandom.com/wiki/Dungal_Lem"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
