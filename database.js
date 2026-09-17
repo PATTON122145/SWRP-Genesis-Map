@@ -1166,6 +1166,24 @@ link:
 "https://starwars.fandom.com/wiki/Baros"
 
 },
+
+{
+
+name:"Barseg",
+
+x:3829,
+
+y:2484,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Barseg"
+
+},
     
 {
 
@@ -2322,6 +2340,24 @@ link:
 "https://starwars.fandom.com/wiki/Champala/Legends"
 
 },
+
+{
+
+name:"Chandaar",
+
+x:3828,
+
+y:2444,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Chandaar"
+
+},
     
 {
 
@@ -3062,20 +3098,44 @@ link:
 },
     
 {
-    
-name:"Desevro",
+    type:"system",
 
-x:3839,
+    name:"Desev System",
 
-y:2491,
+    x:3839,
 
-description:
+    y:2491,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Desevro/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Arjus",
+                    link:"https://starwars.fandom.com/wiki/Arjus"
+                },
+
+                {
+                    name:"Desevro",
+                    link:"https://starwars.fandom.com/wiki/Desevro/Legends"
+                },
+
+                {
+                    name:"Gauther",
+                    link:"https://starwars.fandom.com/wiki/Gauther"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -6957,20 +7017,64 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Lianna",
+    name:"Lianna System",
 
-x:3821,
+    x:3821,
 
-y:2472,
-    
-description:
+    y:2472,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Lianna/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Devato",
+                    link:"https://starwars.fandom.com/wiki/Devato"
+                },
+
+                {
+                    name:"Geminor",
+                    link:"https://starwars.fandom.com/wiki/Geminor"
+                },
+
+                {
+                    name:"Aradian",
+                    link:"https://starwars.fandom.com/wiki/Aradian"
+                },
+
+                {
+                    name:"Lianna",
+                    link:"https://starwars.fandom.com/wiki/Lianna/Legends"
+                },
+
+                {
+                    name:"Indinor",
+                    link:"https://starwars.fandom.com/wiki/Indinor"
+                },
+
+                {
+                    name:"Adinai",
+                    link:"https://starwars.fandom.com/wiki/Adinai"
+                },
+
+                {
+                    name:"Niddinor",
+                    link:"https://starwars.fandom.com/wiki/Niddinor"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
