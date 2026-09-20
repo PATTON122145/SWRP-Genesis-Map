@@ -3739,6 +3739,24 @@ link:
 "https://starwars.fandom.com/wiki/Edusa"
 
 },
+
+{
+    
+name:"Eibon",
+
+x:3916,
+
+y:2427,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Eibon"
+
+},
     
 {
     
