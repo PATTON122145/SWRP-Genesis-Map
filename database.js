@@ -803,7 +803,7 @@ link:
 
 name:"Argai",
 
-x:3914,
+x:3908,
 
 y:2470,
 
@@ -2713,6 +2713,24 @@ link:
 "https://starwars.fandom.com/wiki/Corbos"
 
 },
+
+{
+
+name:"Corlass",
+
+x:3910,
+
+y:2459,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Corlass"
+
+},
     
 {
 
@@ -3593,6 +3611,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Dubrillion/Legends"
+
+},
+
+{
+    
+name:"Duinarbulon",
+
+x:3874,
+
+y:2428,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Duinarbulon"
 
 },
 
@@ -9742,6 +9778,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Roxuli/Legends"
+
+},
+
+{
+
+name:"Rudrig",
+
+x:3926,
+
+y:2488,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Rudrig/Legends"
 
 },
     
