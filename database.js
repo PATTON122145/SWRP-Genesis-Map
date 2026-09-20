@@ -4029,6 +4029,24 @@ link:
 "https://starwars.fandom.com/wiki/Ereesus"
 
 },
+
+{
+    
+name:"Eridicon IV",
+
+x:4029,
+
+y:2423,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Eridicon_IV"
+
+},
     
 {
     
@@ -8023,8 +8041,7 @@ link:
                 },
 
                 {
-                    name:"Mon Calamari",
-                    aka:"Dac",
+                    name:"Mon Calamari (Dac)",
                     link:"https://starwars.fandom.com/wiki/Dac/Legends",
 
                     moons:[
@@ -9113,6 +9130,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Palanhi/Legends"
+
+},
+
+{
+
+name:"Pammant",
+
+x:4078,
+
+y:2409,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Pammant/Legends"
 
 },
    
@@ -10926,6 +10961,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Taspir_III"
+
+},
+
+{
+
+name:"Telaris Cometary Cloud",
+
+x:3989,
+
+y:2457,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Telaris_cometary_cloud"
 
 },
     
