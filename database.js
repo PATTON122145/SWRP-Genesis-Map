@@ -4894,6 +4894,24 @@ link:
 
 {
     
+name:"Gbu",
+
+x:3978,
+
+y:2473,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gbu"
+
+},
+
+{
+    
 name:"Gelda",
 
 x:2796,
@@ -8067,6 +8085,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Mossak"
+
+},
+
+{
+
+name:"Mullan",
+
+x:3968,
+
+y:2442,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mullan"
 
 },
     
@@ -11439,6 +11475,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Tund/Legends"
+
+},
+
+{
+
+name:"Turkana",
+
+x:4025,
+
+y:2469,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Turkana/Legends"
 
 },
     
