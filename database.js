@@ -3150,6 +3150,24 @@ link:
 "https://starwars.fandom.com/wiki/Dennogra/Legends"
 
 },
+
+{
+    
+name:"Derellium",
+
+x:3895,
+
+y:2436,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Derellium"
+
+},
     
 {
     type:"system",
@@ -8427,6 +8445,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Null/Legends"
+
+},
+
+{
+
+name:"Nuswatta",
+
+x:3921,
+
+y:2456,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nuswatta"
 
 },
 
