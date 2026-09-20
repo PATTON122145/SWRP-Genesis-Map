@@ -464,6 +464,24 @@ link:
 "https://starwars.fandom.com/wiki/Altyr_V"
 
 },
+
+{
+
+name:"Amarin",
+
+x:3866,
+
+y:2484,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Amarin"
+
+},
     
 {
 
@@ -778,6 +796,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Argai",
+
+x:3914,
+
+y:2470,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Argai"
 
 },
     
@@ -6412,6 +6448,24 @@ link:
 "https://starwars.fandom.com/wiki/Kanaver"
 
 },
+
+{
+
+name:"Kaon",
+
+x:3904,
+
+y:2492,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kaon"
+
+},
     
 {
 
@@ -8872,6 +8926,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Parshoone"
+
+},
+
+{
+
+name:"Pasmin",
+
+x:3851,
+
+y:2423,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Pasmin"
 
 },
     
@@ -11835,6 +11907,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Voss",
+
+x:3869,
+
+y:2465,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Voss"
 
 },
 
