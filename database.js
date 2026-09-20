@@ -8760,6 +8760,25 @@ link:
 
 },
 
+{
+
+name:"OHS2132-04",
+
+aka:"Ulonsus",
+
+x:4019,
+
+y:2370,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/OHS2132-04_system/Legends"
+
+},
 
 {
 
@@ -9364,6 +9383,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pho_Ph'eah/Legends"
+
+},
+
+{
+
+name:"Pinperu",
+
+x:4107,
+
+y:2370,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Pinperu_system/Legends"
 
 },
     
