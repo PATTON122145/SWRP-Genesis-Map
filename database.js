@@ -7999,23 +7999,82 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Mon Calamari",
+    name:"Mon Calamari System",
 
-x:4080,
+    x:4075,
 
-y:2416,
-    
-description:
+    y:2416,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Mon_Calamari/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Mol Luxu",
+                    link:"https://starwars.fandom.com/wiki/Mol_Luxu"
+                },
+
+                {
+                    name:"Mon Calamari",
+                    aka:"Dac",
+                    link:"https://starwars.fandom.com/wiki/Dac/Legends",
+
+                    moons:[
+
+                        {
+                            name:"Dac's Moon",
+                            link:"https://starwars.fandom.com/wiki/Dac%27s_Moon"
+                        }
+
+                    ]
+                },
+
+                {
+                    name:"Iceberg One",
+                    link:"https://starwars.fandom.com/wiki/Iceberg_One"
+                },
+
+                {
+                    name:"Iceberg Two",
+                    link:"https://starwars.fandom.com/wiki/Iceberg_Two"
+                },
+
+                {
+                    name:"Mon Eron",
+                    link:"https://starwars.fandom.com/wiki/Mon_Eron"
+                },
+
+                {
+                    name:"Sep Elopon",
+                    link:"https://starwars.fandom.com/wiki/Sep_Elopon"
+                },
+
+                {
+                    name:"Iceberg Three",
+                    link:"https://starwars.fandom.com/wiki/Iceberg_Three"
+                },
+
+                {
+                    name:"Iceberg Four",
+                    link:"https://starwars.fandom.com/wiki/Iceberg_Four"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
-
+    
 {
 
 name:"Monhudle",
@@ -9765,6 +9824,24 @@ link:
 
 {
 
+name:"Refnar",
+
+x:3999,
+
+y:2464,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Refnar"
+
+},
+
+{
+
 name:"Reginard",
 
 x:4052,
@@ -9960,6 +10037,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Rudrig/Legends"
+
+},
+
+{
+
+name:"Ruisto",
+
+x:4063,
+
+y:2424,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ruisto"
 
 },
     
