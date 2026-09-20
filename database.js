@@ -340,6 +340,24 @@ link:
 "https://starwars.fandom.com/wiki/Aldivy"
 
 },
+
+{
+
+name:"Algor",
+
+x:3927,
+
+y:2420,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Algor"
+
+},
     
 {
     type:"system",
@@ -1857,6 +1875,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Brentaal_IV/Legends"
+
+},
+
+{
+
+name:"Brigia",
+
+x:3951,
+
+y:2426,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Brigia/Legends"
 
 },
     
@@ -3953,6 +3989,26 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Equanus"
+
+},
+
+{
+
+name:"Eredenn Prime",
+
+aka:"Eredenn IV",
+
+x:3933,
+
+y:2463,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Eredenn_Prime"
 
 },
 
@@ -9673,6 +9729,24 @@ link:
 
 {
 
+name:"Reginard",
+
+x:4052,
+
+y:2451,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Reginard"
+
+},
+
+{
+
 name:"Rekkiad",
 
 x:3858,
@@ -10176,6 +10250,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Shaum_Hii/Legends"
+
+},
+
+{
+
+name:"Shaylin 18",
+
+x:4013,
+
+y:2475,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Shaylin_18"
 
 },
     
