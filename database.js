@@ -3005,6 +3005,24 @@ link:
 
 {
     
+name:"Damendine System",
+
+x:4104,
+
+y:2439,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Damendine_system/Legends"
+
+},
+
+{
+    
 name:"Dantooine",
 
 x:2950,
@@ -8525,6 +8543,24 @@ link:
 "https://starwars.fandom.com/wiki/New_Bakstre"
 
 },
+
+{
+
+name:"New Heurkea System",
+
+x:4088,
+
+y:2390,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/New_Heurkea_system/Legends"
+
+},
     
 {
 
@@ -8780,9 +8816,9 @@ link:
 
 {
 
-name:"OHS2132-04",
+name:"OHS2132-04 System",
 
-aka:"Ulonsus",
+aka:"Ulonsus System",
 
 x:4019,
 
@@ -9406,7 +9442,7 @@ link:
 
 {
 
-name:"Pinperu",
+name:"Pinperu System",
 
 x:4107,
 
@@ -9553,7 +9589,7 @@ link:
 
 {
 
-name:"Poseidenna",
+name:"Poseidenna System",
 
 x:4064,
 
@@ -10997,6 +11033,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Taral V",
+
+x:4080,
+
+y:2359,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Taral_V"
 
 },
     
