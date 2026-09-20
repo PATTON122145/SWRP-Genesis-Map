@@ -7961,6 +7961,24 @@ link:
 "https://starwars.fandom.com/wiki/Mindor/Legends"
 
 },
+
+{
+
+name:"Minntooine",
+
+x:4056,
+
+y:2404,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Minntooine/Legends"
+
+},
     
 {
 
@@ -8433,6 +8451,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Neelgaimon"
+
+},
+
+{
+
+name:"New Alderaan",
+
+x:4013,
+
+y:2378,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/New_Alderaan/Legends"
 
 },
     
