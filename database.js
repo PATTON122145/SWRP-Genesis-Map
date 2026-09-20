@@ -7746,6 +7746,24 @@ link:
 
 {
 
+name:"Mantan",
+
+x:4080,
+
+y:2397,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mantan"
+
+},
+
+{
+
 name:"Mantooine",
 
 x:2995,
@@ -9392,7 +9410,7 @@ name:"Pinperu",
 
 x:4107,
 
-y:2370,
+y:2425,
 
 description:
 
@@ -9532,6 +9550,25 @@ link:
 "https://starwars.fandom.com/wiki/Pondut_Station_system"
 
 },
+
+{
+
+name:"Poseidenna",
+
+x:4064,
+
+y:2363,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Poseidenna_system/Legends"
+
+},
+
 
 {
 
