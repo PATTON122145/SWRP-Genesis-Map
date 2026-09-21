@@ -9975,6 +9975,43 @@ link:
 },
 
 {
+    type:"system",
+
+    name:"Quadrant Seven System",
+
+    x:2806,
+
+    y:2443,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Quadrant Seven",
+                    link:"https://starwars.fandom.com/wiki/Quadrant_Seven"
+                },
+
+                {
+                    name:"Haven",
+                    link:"https://starwars.fandom.com/wiki/Haven_(spaceport_moon)"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
+
+{
 
 name:"Quanton",
 
