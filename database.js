@@ -1017,6 +1017,24 @@ link:
 
 {
 
+name:"Atollon",
+
+x:4049,
+
+y:2348,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Atollon"
+
+},
+
+{
+
 name:"Atorra",
 
 x:3607,
@@ -1218,6 +1236,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Baros"
+
+},
+
+{
+
+name:"Bars Barka",
+
+x:2779,
+
+y:2409,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bars_Barka"
 
 },
 
@@ -1965,6 +2001,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/B'trilla"
+
+},
+
+{
+
+name:"Buchich",
+
+x:4134,
+
+y:2422,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Buchich"
 
 },
 
@@ -3432,6 +3486,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Dorin/Legends"
+
+},
+
+{
+    
+name:"Dornea",
+
+x:4117,
+
+y:2349,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Dornea/Legends"
 
 },
     
@@ -5608,6 +5680,25 @@ link:
 
 {
 
+name:"Hast",
+
+x:4101,
+
+y:2476,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hast"
+
+},
+
+
+{
+
 name:"Haverling",
 
 x:2906,
@@ -6724,6 +6815,24 @@ link:
 
 {
 
+name:"Kariek",
+
+x:2644,
+
+y:2451,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kariek"
+
+},
+
+{
+
 name:"Karsten's World",
 
 x:3671,
@@ -7124,6 +7233,47 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Krayiss_II"
+
+},
+
+{
+    type:"system",
+
+    name:"Krinemonen System",
+
+    x:4124,
+
+    y:2416,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Krinemonen",
+                    link:"https://starwars.fandom.com/wiki/Krinemonen",
+
+                    moons:[
+
+                        {
+                            name:"Krinemonen III",
+                            link:"https://starwars.fandom.com/wiki/Krinemonen_III"
+                        }
+
+                    ]
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
 
@@ -9350,6 +9500,25 @@ link:
 "https://starwars.fandom.com/wiki/Paqualis_III/Legends"
 
 },
+
+{
+
+name:"Parnassos",
+
+x:2481,
+
+y:2424,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Parnassos"
+
+},
+
 
 {
 
