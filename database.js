@@ -12067,6 +12067,24 @@ link:
 "https://starwars.fandom.com/wiki/Uba_IV/Legends"
 
 },
+
+{
+
+name:"Ubertica",
+
+x:2793,
+
+y:2415,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ubertica"
+
+},
     
 {
 
