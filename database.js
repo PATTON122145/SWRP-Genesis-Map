@@ -12518,6 +12518,24 @@ link:
 "https://starwars.fandom.com/wiki/Varvrona_system/Legends"
 
 },
+
+{
+
+name:"Varvva",
+
+x:2791,
+
+y:2398,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Varvva_system/Legends"
+
+},
     
 {
 
@@ -12611,7 +12629,7 @@ link:
     
 {
 
-name:"Veragi",
+name:"Veragi System",
 
 x:2988,
 
