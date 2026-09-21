@@ -325,6 +325,24 @@ link:
 
 {
 
+name:"Alba-16",
+
+x:3424,
+
+y:2384,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Alba-16"
+
+},
+
+{
+
 name:"Aldivy",
 
 x:3591,
@@ -534,6 +552,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ammuud/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Amorris System",
+
+    x:3323,
+
+    y:2448,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Amorris",
+                    link:"https://starwars.fandom.com/wiki/Amorris"
+                },
+
+                {
+                    name:"Morr Three",
+                    link:"https://starwars.fandom.com/wiki/Morr_Three"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -8002,6 +8057,48 @@ link:
 "https://starwars.fandom.com/wiki/Mantooine/Legends"
 
 },
+
+{
+    type:"system",
+
+    name:"Marcellus System",
+
+    x:3293,
+
+    y:2378,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Marca",
+                    link:"https://starwars.fandom.com/wiki/Marca"
+                },
+
+                {
+                    name:"Glauheim",
+                    link:"https://starwars.fandom.com/wiki/Glauheim"
+                },
+
+                {
+                    name:"Dadrus",
+                    link:"https://starwars.fandom.com/wiki/Dadrus"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
 
@@ -9627,6 +9724,24 @@ link:
 "https://starwars.fandom.com/wiki/Phaeda/Legends"
 
 },
+
+{
+
+name:"Phatrong",
+
+x:3523,
+
+y:2396,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Phatrong/Legends"
+
+},
     
 {
 
@@ -10769,6 +10884,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Selitan"
+
+},
+
+{
+
+name:"Selnesh",
+
+x:2908,
+
+y:2388,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Selnesh/Legends"
 
 },
     
@@ -13258,6 +13391,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Zigoola"
+
+},
+
+{
+
+name:"Zongorlu",
+
+x:3106,
+
+y:2395,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Zongorlu"
 
 },
 
