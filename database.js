@@ -6614,6 +6614,43 @@ link:
 },
 
 {
+    type:"system",
+
+    name:"Kamdon System",
+
+    x:4108,
+
+    y:2361,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Talas",
+                    link:"https://starwars.fandom.com/wiki/Talas"
+                },
+
+                {
+                    name:"Kamdon",
+                    link:"https://starwars.fandom.com/wiki/Unidentified_jungle_world_(Kamdon_system)"
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
+
+{
 
 name:"Kanaver",
 
@@ -10400,6 +10437,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Salin"
+
+},
+
+{
+
+name:"Sanctuary",
+
+x:4093,
+
+y:2366,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Sanctuary/Legends"
 
 },
 
