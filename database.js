@@ -5738,6 +5738,24 @@ link:
 "https://starwars.fandom.com/wiki/Hijado"
 
 },
+
+{
+
+name:"Hinakuu",
+
+x:4123,
+
+y:2404,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Hinakuu"
+
+},
     
 {
 
@@ -7482,9 +7500,9 @@ link:
 
 name:"Lothal",
 
-x:4100,
+x:4113,
 
-y:2358,
+y:2355,
     
 description:
 
@@ -12980,6 +12998,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ziost/Legends"
+
+},
+
+{
+
+name:"Zigoola",
+
+x:4118,
+
+y:2457,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Zigoola"
 
 },
 
