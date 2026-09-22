@@ -71,6 +71,24 @@ link:
 "https://starwars.fandom.com/wiki/Abo_Dreth"
 
 },
+
+{
+
+name:"Abraxin",
+
+x:3886,
+
+y:2495,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Abraxin"
+
+},
     
 {
 
@@ -2079,6 +2097,24 @@ link:
 
 {
 
+name:"Burska",
+
+x:2615,
+
+y:2333,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Burska"
+
+},
+
+{
+
 name:"Cademimu V",
 
 x:3105,
@@ -2591,6 +2627,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Ch'hodos"
+
+},
+
+{
+
+name:"Chirrion System",
+
+x:3632,
+
+y:2426,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Chirrion_system/Legends"
 
 },
 
@@ -3127,6 +3181,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Damendine_system/Legends"
+
+},
+
+{
+    
+name:"Dandrian",
+
+x:3803,
+
+y:2370,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Dandrian"
 
 },
 
@@ -10202,7 +10274,7 @@ link:
 
 name:"Rago",
 
-x:2640,
+x:2617,
 
 y:2320,
     
@@ -10340,6 +10412,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Raydonia_system/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Red Twins System",
+
+    x:2628,
+
+    y:2366,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Acherin",
+                    link:"https://starwars.fandom.com/wiki/Acherin"
+                },
+
+                {
+                    name:"Deneter",
+                    link:"https://starwars.fandom.com/wiki/Deneter"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
