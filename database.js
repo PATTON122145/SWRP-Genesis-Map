@@ -5258,6 +5258,24 @@ link:
 "https://starwars.fandom.com/wiki/Gigor/Legends"
 
 },
+
+{
+
+name:"Gilatter VIII",
+
+x:2666,
+
+y:2361,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Gilatter_VIII"
+
+},
     
 {
 
@@ -8571,6 +8589,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Morishim"
+
+},
+
+{
+
+name:"Moro Three",
+
+x:2641,
+
+y:2339,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Moro_Three"
 
 },
 
