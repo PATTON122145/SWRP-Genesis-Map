@@ -6157,20 +6157,69 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ilum",
+    name:"Ilum System",
 
-x:2413,
+    x:2413,
 
-y:2308,
+    y:2308,
 
-description:
+    description:"",
 
-"",
+    worldGroups:[
 
-link:
+        {
 
-"https://starwars.fandom.com/wiki/Ilum/Legends"
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Jike",
+                    link:"https://starwars.fandom.com/wiki/Jike"
+                },
+
+                {
+                    name:"Bory",
+                    link:"https://starwars.fandom.com/wiki/Bory"
+                },
+
+                {
+                    name:"Cala",
+                    link:"https://starwars.fandom.com/wiki/Cala_(planet)"
+                },
+
+                {
+                    name:"Ilum",
+                    link:"https://starwars.fandom.com/wiki/Ilum/Legends"
+                },
+
+                {
+                    name:"Trop",
+                    link:"https://starwars.fandom.com/wiki/Trop"
+                },
+
+                {
+                    name:"Eton",
+                    link:"https://starwars.fandom.com/wiki/Eton"
+                },
+
+                {
+                    name:"Fern",
+                    link:"https://starwars.fandom.com/wiki/Fern"
+                },
+
+                {
+                    name:"Kess Bela (asteroid)",
+                    link:"https://starwars.fandom.com/wiki/Kess_Bela"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
