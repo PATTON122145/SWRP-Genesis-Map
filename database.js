@@ -5512,6 +5512,72 @@ link:
 "https://starwars.fandom.com/wiki/Gwori"
 
 },
+
+{
+    type:"system",
+
+    name:"Gyuel System",
+
+    x:2509,
+
+    y:2350,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Qoribu",
+                    link:"https://starwars.fandom.com/wiki/Qoribu",
+
+                    moons:[
+
+                        {
+                            name:"Jwilo",
+                            link:"https://starwars.fandom.com/wiki/Jwilo"
+                        },
+
+                        {
+                            name:"Eyyl",
+                            link:"https://starwars.fandom.com/wiki/Eyyl"
+                        },
+
+                        {
+                            name:"Zvbo",
+                            link:"https://starwars.fandom.com/wiki/Zvbo"
+                        },
+
+                        {
+                            name:"Ruu",
+                            link:"https://starwars.fandom.com/wiki/Ruu"
+                        },
+
+                        {
+                            name:"Nrogu",
+                            link:"https://starwars.fandom.com/wiki/Nrogu"
+                        },
+
+                        {
+                            name:"Kr",
+                            link:"https://starwars.fandom.com/wiki/Kr"
+                        }
+
+                    ]
+                }
+
+            ]
+
+        }
+
+    ]
+
+},
     
 {
 
@@ -7427,6 +7493,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Krayiss_II"
+
+},
+
+{
+
+name:"Kril'Dor",
+
+x:2638,
+
+y:2315,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kril%27Dor/Legends"
 
 },
 
@@ -13099,6 +13183,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vjun/Legends"
+
+},
+
+{
+
+name:"Voniss",
+
+x:2596,
+
+y:2289,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Voniss"
 
 },
     
