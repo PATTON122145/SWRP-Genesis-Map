@@ -8627,6 +8627,24 @@ link:
 "https://starwars.fandom.com/wiki/Munto_Codru/Legends"
 
 },
+
+{
+
+name:"Murgo System",
+
+x:2612,
+
+y:2295,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Murgo_system/Legends"
+
+},
     
 {
 
@@ -10508,6 +10526,24 @@ link:
 
 {
 
+name:"Regel Eight",
+
+x:2575,
+
+y:2339,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Regel_Eight"
+
+},
+
+{
+
 name:"Reginard",
 
 x:4052,
@@ -11209,6 +11245,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Sinta_IV"
+
+}, 
+
+{
+
+name:"Sinton",
+
+x:2646,
+
+y:2345,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Sinton"
 
 }, 
    
