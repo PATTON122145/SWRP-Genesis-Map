@@ -8904,6 +8904,24 @@ link:
 "https://starwars.fandom.com/wiki/Mygeeto"
 
 },
+
+{
+
+name:"Myomar",
+
+x:2766,
+
+y:2260,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Myomar/Legends"
+
+},
     
 {
 
@@ -10982,6 +11000,24 @@ link:
 "https://starwars.fandom.com/wiki/Ruisto"
 
 },
+
+{
+
+name:"Rustibar",
+
+x:2707,
+
+y:2358,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Rustibar"
+
+},
     
 {
 
@@ -11630,6 +11666,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Sriluur/Legends"
+
+},
+
+{
+
+name:"Station 88",
+
+x:2792,
+
+y:2274,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Station_88_Spaceport"
 
 },
     
