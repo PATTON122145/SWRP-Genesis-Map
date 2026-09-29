@@ -6856,6 +6856,24 @@ link:
 },
 
 {
+
+name:"Kalaan",
+
+x:2693,
+
+y:2337,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Kalaan/Legends"
+
+},
+
+{
     type:"system",
 
     name:"Kalee System",
@@ -8668,6 +8686,24 @@ link:
         }
 
     ]
+
+},
+
+{
+
+name:"Mondress",
+
+x:2703,
+
+y:2274,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Mondress_system/Legends"
 
 },
     
