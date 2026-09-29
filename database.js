@@ -9592,6 +9592,24 @@ link:
 "https://starwars.fandom.com/wiki/Ord_Trasi/Legends"
 
 },
+
+{
+
+name:"Ord Varee",
+
+x:2698,
+
+y:2326,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Ord_Varee"
+
+},
     
 {
 
@@ -12837,6 +12855,43 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vaathkree/Legends"
+
+},
+
+{
+    type:"system",
+
+    name:"Vaced System",
+
+    x:2724,
+
+    y:2284,
+
+    description:"",
+
+    worldGroups:[
+
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Vaced",
+                    link:"https://starwars.fandom.com/wiki/Vaced/Legends"
+                },
+
+                {
+                    name:"Lesser Vaced",
+                    link:"https://starwars.fandom.com/wiki/Lesser_Vaced/Legends"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
