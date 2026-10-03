@@ -1609,6 +1609,24 @@ link:
 
 {
 
+name:"Bezim",
+
+x:2763,
+
+y:2279,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Bezim"
+
+},
+
+{
+
 name:"Bhargebba Six",
 
 x:3750,
@@ -9107,6 +9125,24 @@ link:
 
 {
 
+name:"Nentan",
+
+x:2854,
+
+y:2293,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Nentan"
+
+},
+
+{
+
 name:"New Alderaan",
 
 x:4013,
@@ -13036,6 +13072,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Vallusk_Cluster/Legends"
+
+},
+
+{
+
+name:"Valrar",
+
+x:2788,
+
+y:2347,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Valrar"
 
 },
     
