@@ -3237,6 +3237,24 @@ link:
 "https://starwars.fandom.com/wiki/Dantooine/Legends"
 
 },
+
+{
+    
+name:"Darkon III",
+
+x:2771,
+
+y:2329,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Darkon_III"
+
+},
     
 {
     
@@ -4538,6 +4556,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Feena"
+
+},
+
+{
+    
+name:"Fef",
+
+x:2776,
+
+y:2358,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Fef"
 
 },
 
