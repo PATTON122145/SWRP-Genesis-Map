@@ -1198,6 +1198,24 @@ link:
 
 {
 
+name:"Baltizaar",
+
+x:2857,
+
+y:2354,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Baltizaar/Legends"
+
+},
+
+{
+
 name:"Ban-Satir II",
 
 x:3902,
@@ -3613,6 +3631,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Doan"
+
+},
+
+{
+    
+name:"Dohu VII",
+
+x:2901,
+
+y:2309,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Dohu_VII"
 
 },
     
@@ -9666,20 +9702,61 @@ link:
 },
     
 {
+    type:"system",
 
-name:"Ord Mantell",
+    name:"Bright Jewel System",
 
-x:2956,
+    priority:"medium",
 
-y:2333,
+    x:2956,
 
-description:
+    y:2333,
 
-"",
+    description:"",
 
-link:
+    worldGroups:[
 
-"https://starwars.fandom.com/wiki/Ord_Mantell/Legends"
+        {
+
+            label:"",
+
+            worlds:[
+
+                {
+                    name:"Repta",
+                    link:"https://starwars.fandom.com/wiki/Repta"
+                },
+
+                {
+                    name:"Ord Mantell",
+                    link:"https://starwars.fandom.com/wiki/Ord_Mantell/Legends"
+                },
+
+                {
+                    name:"Cairns",
+                    link:"https://starwars.fandom.com/wiki/Cairns"
+                },
+
+                {
+                    name:"Su Exposs",
+                    link:"https://starwars.fandom.com/wiki/Su_Exposs"
+                },
+
+                {
+                    name:"Quatin",
+                    link:"https://starwars.fandom.com/wiki/Quatin"
+                },
+
+                {
+                    name:"Hota",
+                    link:"https://starwars.fandom.com/wiki/Hota"
+                }
+
+            ]
+
+        }
+
+    ]
 
 },
     
@@ -10525,6 +10602,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Pypin"
+
+},
+
+{
+
+name:"Qiilura",
+
+x:2943,
+
+y:2330,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Qiilura/Legends"
 
 },
     
@@ -12801,6 +12896,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Turkana/Legends"
+
+},
+
+{
+
+name:"Tyan",
+
+x:2932,
+
+y:2369,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Tyan"
 
 },
     
