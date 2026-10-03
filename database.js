@@ -485,6 +485,24 @@ link:
 
 {
 
+name:"Altarrn",
+
+x:2799,
+
+y:2315,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Altarrn"
+
+},
+
+{
+
 name:"Althir III",
 
 x:3549,
@@ -4963,6 +4981,24 @@ link:
 
 {
     
+name:"Frithia",
+
+x:2834,
+
+y:2314,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Frithia"
+
+},
+
+{
+    
 name:"Frunchettan",
 
 x:2626,
@@ -7939,6 +7975,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Lola_Sayu/Legends"
+
+},
+
+{
+
+name:"Londor System",
+
+x:2758,
+
+y:2345,
+    
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/Londor_system/Legends"
 
 },
 
@@ -12439,6 +12493,24 @@ description:
 link:
 
 "https://starwars.fandom.com/wiki/Togoria/Legends"
+
+},
+
+{
+
+name:"T'olan",
+
+x:2868,
+
+y:2306,
+
+description:
+
+"",
+
+link:
+
+"https://starwars.fandom.com/wiki/T%27olan"
 
 },
     
